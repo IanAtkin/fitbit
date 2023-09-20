@@ -1,0 +1,19 @@
+<svg>
+  <image id="image" href="images/bg.jpg" />
+  <image id="overlay" href="images/overlay.png" />
+  <image id="batteryIcon" href="" />
+  <image id="heartIcon" href="icons/heart_icon.png" />
+  <image id="fireIcon" href="icons/fire_icon.png" />
+  <image id="stepsIcon" href="icons/steps_icon.png" />
+  <image id="stairsIcon" href="icons/stairs_icon.png" />
+  <image id="usFlagIcon" href="icons/us_flag_icon.png" />
+  <text id="theTime"></text>
+  <text id="caTime"></text>
+  <text id="justForJay"></text>
+  <text id="theDate"></text>
+  <text id="heartRate"></text>
+  <text id="kCalories"></text>
+  <text id="steps"></text>
+  <text id="floors"></text>
+  <text id="power"></text>
+</svg>

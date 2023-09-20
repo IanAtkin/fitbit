@@ -1,0 +1,142 @@
+.defaultText {
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 32;
+}
+
+#image {
+  width: 100%;
+  height: 100%;
+}
+
+#overlay {
+  width: 100%;
+  height: 100%;
+}
+
+#theTime {
+  font-size: 105;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+18;
+  fill: white;
+}
+
+#ukTime {
+  font-size: 40;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+58;
+  fill: #dddddd;
+}
+
+#ukFlagIcon {
+  width: 28;
+  height: 15;
+  x: 23%-8;
+  y: 50%+32;
+}
+
+#power {
+  font-weight: bold;
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 20;
+  text-anchor: middle;
+  x: 50%+18;
+  y: 50%-120;
+  fill: white;
+}
+
+#batteryIcon {
+  width: 20;
+  height: 10;
+  x: 50%-32;
+  y: 50%-131;
+}
+
+#theDate {
+  font-weight: bold;
+  font-size: 22;
+  font-family: System-Bold;
+  text-length: 30;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%-80;
+  fill: white;
+}
+
+#heartRate {
+  font-weight: bold;
+  font-size: 20;
+  text-length: 20;
+  text-anchor: start;
+  x: 20%;
+  y: 50%+102;
+  fill: white;
+  visibility: hidden;
+}
+
+#heartIcon {
+  width: 15;
+  height: 15;
+  x: 20%-23;
+  y: 50%+88;
+  visibility: hidden;
+}
+
+#kCalories {
+  font-weight: bold;
+  font-size: 20;
+  text-length: 20;
+  text-anchor: start;
+  x: 20%;
+  y: 50%+132;
+  fill: white;
+}
+
+#fireIcon {
+  width: 15;
+  height: 15;
+  x: 20%-23;
+  y: 50%+112;
+}
+
+#steps {
+  font-weight: bold;
+  font-size: 30;
+  text-length: 20;
+  text-anchor: start;
+  x: 65%;
+  y: 50%+103;
+  fill: white;
+}
+
+#stepsIcon {
+  width: 15;
+  height: 15;
+  x: 65%-20;
+  y: 50%+88;
+}
+
+#floors {
+  font-weight: bold;
+  font-size: 20;
+  text-length: 20;
+  text-anchor: start;
+  x: 65%;
+  y: 50%+132;
+  fill: white;
+}
+
+#stairsIcon {
+  width: 15;
+  height: 15;
+  x: 65%-20;
+  y: 50%+117;
+}
