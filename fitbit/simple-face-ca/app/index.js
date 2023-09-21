@@ -23,7 +23,8 @@ const floors = document.getElementById("floors");
 const power = document.getElementById("power");
 
 const bg = document.getElementById("image");
-const bgLastChanged = 0;
+const bgLoaded = false;
+const bgChanged = false;
 
 const batteryIcon = document.getElementById("batteryIcon");
 
@@ -102,8 +103,14 @@ clock.ontick = (evt) => {
   }
   
   /* bg images */
-  if(Math.abs(bgLastChanged - mins) >= 15) {
+  if((mins % 15 == 0 && bgChanged == false) || bgLoaded == false) {
     bg.href = `images/${util.getImage(hours)}.jpg`;
-    bgLastChanged = mins;
+    bgLoaded = true;
+    bgChanged = true;
+    console.log(bg.href);
+  } else {
+    if (mins % 15 != 0) {
+      bgChanged = false;
+    }
   }
 }

@@ -8,46 +8,17 @@ export function zeroPad(i) {
 
 // return a random image depending on the hour
 const images = [
-  ["violator", "_+", "shadow_of_fear"],
-  ["construction_time_again", "an_orchestrated_rise_to_fall"],
-  ["classics", "empires_ep", "hunting_high_and_low"],
-  ["richard_d_james_album", "big_black_delta", "exai", "shapes"],
-  ["black_celebration", "violator", "uforb", "uf_off", "the_dream", "gnayse", "volume_beta"],
-  ["violator", "uforb", "uf_off", "the_dream", "computer_controlled", "ex_machina", "patashnik"]
+  ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"],
+  ["21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40"]
 ]
 
+// we pass the hour in case we decide to do something exciting based on the hour
 export function getImage(h) {
-  // sunrise
-  if(h == 5) {
+  if (h < 12) {
     return images[0][Math.floor(Math.random() * images[0].length)];
-  }
-  
-  // day
-  if(h >= 6 && h <= 16) {
+  } else {
     return images[1][Math.floor(Math.random() * images[1].length)];
   }
-  
-  // sunwet
-  if(h == 17) {
-    return images[2][Math.floor(Math.random() * images[2].length)];
-  }
-  
-  // dusk
-  if(h >= 18 && h <= 19) {
-    return images[3][Math.floor(Math.random() * images[3].length)];
-  }
-  
-  // night
-  if(h >= 20 && h <= 22) {
-    return images[4][Math.floor(Math.random() * images[4].length)];
-  }
-  
-  // stars
-  if(h >= 23 || (h >= 0 && h <= 4)) {
-    return images[5][Math.floor(Math.random() * images[5].length)];
-  }
-
-  return "bg";
 }
 
 // change the step count based on the number of steps
@@ -163,9 +134,15 @@ export function getOffset(d) {
   return offset;
 }
 
-export function getTimeColor(d) {
+export function getTimeColor(d, T) {
   var open = "#44FF44";
   var closed = "#dddddd";
+
+  if (!T) {
+    return closed;
+  } else {
+    return open;
+  }
 
   const holidays = {
     '09042023': 'c',
@@ -200,40 +177,38 @@ export function getTimeColor(d) {
     '11282025': 'ec',
     '12242025': 'ec',
     '12252025': 'c'
-};
+  };
 
-var t = zeroPad(d.getHours().toString()) + zeroPad(d.getMinutes().toString());
-var dow = d.getDay();
-var mn = zeroPad((d.getMonth() + 1).toString());
-var dy = zeroPad(d.getDate().toString());
-var yr = zeroPad(d.getFullYear().toString());
+  var t = zeroPad(d.getHours().toString()) + zeroPad(d.getMinutes().toString());
+  var dow = d.getDay();
+  var mn = zeroPad((d.getMonth() + 1).toString());
+  var dy = zeroPad(d.getDate().toString());
+  var yr = zeroPad(d.getFullYear().toString());
 
-var key = mn + dy + yr;
+  var key = mn + dy + yr;
 
-if (dow == 0 || dow == 6) {
-    return closed;
-}
+  if (dow == 0 || dow == 6) {
+      return closed;
+  }
 
-switch(holidays[key]) {
+  switch(holidays[key]) {
     case 'c':
-        // closed
-        return closed;
-        break;
+      // closed
+      return closed;
     case 'ec':
-        // early close
-        if (t > 1430 && t < 1800) {
-            return open;
-        } else {
-            return closed;
-        }
-        break;
+      // early close
+      if (t > 1430 && t < 1800) {
+        return open;
+      } else {
+        return closed;
+      }
     default:
-        // open today!
-        // 0930 to 1600
-        if (t > 1430 && t < 2100) {
-            return open;
-        } else {
-            return closed;
-        }
+      // open today!
+      // 0930 to 1600
+      if (t > 1430 && t < 2100) {
+        return open;
+      } else {
+        return closed;
+      }
   }
 }

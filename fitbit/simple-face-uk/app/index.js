@@ -7,6 +7,8 @@ import { HeartRateSensor } from "heart-rate";
 import { me as appbit } from "appbit";
 import { today as toDay } from "user-activity";
 import { battery } from "power";
+import * as messaging from "messaging";
+import * as simpleSettings from "../resources/device-settings";
 
 // update the clock every minute
 clock.granularity = "minutes";
@@ -23,12 +25,31 @@ const floors = document.getElementById("floors");
 const power = document.getElementById("power");
 
 const bg = document.getElementById("image");
-const bgLastChanged = 0;
+const bgLoaded = false;
+const bgChanged = false;
 
 const batteryIcon = document.getElementById("batteryIcon");
 
 const monthsOfYear = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+const TRADING = null;
+
+function settingsCallback(data) {
+  if (!data) {
+    console.log("NO!");
+    return;
+  }
+  console.log(`DATA? ${data.trading}`);
+  if (data.trading) {
+    console.log(`BOOM! data.trading? ${data.trading}`);
+    TRADING = data.trading;
+    updateCaTimeColor(new Date(), TRADING);
+  }
+}
+simpleSettings.initialize(settingsCallback);
+
+settingsCallback();
 
 heartRate.text = "N/A";
 if (HeartRateSensor) {
@@ -37,6 +58,15 @@ if (HeartRateSensor) {
   heartRate.style.visibility = "visible";
   heartIcon.style.visibility = "visible";
 }
+
+/* settings */
+messaging.peerSocket.addEventListener("message", (evt) => {
+  if (evt && evt.data && evt.data.key === "trading") {
+    TRADING = evt.data.value;
+    updateCaTimeColor(new Date(), TRADING);
+    console.log(`Trading? ${TRADING}`);
+  }
+});
 
 // update the <text> element every tick with the current time
 // includes naive code to generate CA time... cuz no tumezone support in Fitbit API
@@ -61,13 +91,15 @@ clock.ontick = (evt) => {
   theTime.text = `${hours}:${mins}`;
   caTime.text = `${caHours}:${mins}`;
 
-  caTime.style.fill = util.getTimeColor(today);
-  
+  caTime.style.fill = util.getTimeColor(today, TRADING);
+
   let thisMonth = today.getMonth();
   let thisDay = today.getDay();
   let thisDate = today.getDate();
   
   theDate.text = `${daysOfWeek[thisDay]}, ${monthsOfYear[thisMonth]} ${thisDate}${util.getSuffix(thisDate)}`;
+
+  updateCaTimeColor(today, TRADING);
 
   /* heart rate */
   if (HeartRateSensor) {
@@ -102,8 +134,18 @@ clock.ontick = (evt) => {
   }
   
   /* bg images */
-  if(Math.abs(bgLastChanged - mins) >= 15) {
+  if((mins % 15 == 0 && bgChanged == false) || bgLoaded == false) {
     bg.href = `images/${util.getImage(hours)}.jpg`;
-    bgLastChanged = mins;
+    bgLoaded = true;
+    bgChanged = true;
+    console.log(bg.href);
+  } else {
+    if (mins % 15 != 0) {
+      bgChanged = false;
+    }
   }
+}
+
+function updateCaTimeColor(t, T) {
+  caTime.style.fill = util.getTimeColor(t, T);
 }
