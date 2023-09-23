@@ -25,8 +25,7 @@ const floors = document.getElementById("floors");
 const power = document.getElementById("power");
 
 const bg = document.getElementById("image");
-const bgLoaded = false;
-const bgChanged = false;
+bg.href = `images/${util.getImage(0)}.jpg`;
 
 const batteryIcon = document.getElementById("batteryIcon");
 
@@ -73,7 +72,10 @@ messaging.peerSocket.addEventListener("message", (evt) => {
 clock.ontick = (evt) => {
   let today = evt.date;
   let hours = today.getHours();
+  let seconds = today.getSeconds();
   let caHours = hours - 8;
+
+  console.log(seconds);
 
   if (preferences.clockDisplay === "12h") {
     hours = hours % 12 || 12;
@@ -134,15 +136,9 @@ clock.ontick = (evt) => {
   }
   
   /* bg images */
-  if((mins % 15 == 0 && bgChanged == false) || bgLoaded == false) {
+  if(mins % 15 == 0 && seconds == 0) {
     bg.href = `images/${util.getImage(hours)}.jpg`;
-    bgLoaded = true;
-    bgChanged = true;
     console.log(bg.href);
-  } else {
-    if (mins % 15 != 0) {
-      bgChanged = false;
-    }
   }
 }
 

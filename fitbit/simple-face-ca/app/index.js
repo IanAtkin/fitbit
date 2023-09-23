@@ -23,8 +23,7 @@ const floors = document.getElementById("floors");
 const power = document.getElementById("power");
 
 const bg = document.getElementById("image");
-const bgLoaded = false;
-const bgChanged = false;
+bg.href = `images/${util.getImage(0)}.jpg`;
 
 const batteryIcon = document.getElementById("batteryIcon");
 
@@ -44,6 +43,7 @@ if (HeartRateSensor) {
 clock.ontick = (evt) => {
   let today = evt.date;
   let hours = today.getHours();
+  let seconds = today.getSeconds();
   let ukHours = hours + 8;
 
   if (preferences.clockDisplay === "12h") {
@@ -103,14 +103,8 @@ clock.ontick = (evt) => {
   }
   
   /* bg images */
-  if((mins % 15 == 0 && bgChanged == false) || bgLoaded == false) {
+  if(mins % 15 == 0 && seconds == 0) {
     bg.href = `images/${util.getImage(hours)}.jpg`;
-    bgLoaded = true;
-    bgChanged = true;
     console.log(bg.href);
-  } else {
-    if (mins % 15 != 0) {
-      bgChanged = false;
-    }
   }
 }
