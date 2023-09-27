@@ -17,7 +17,7 @@
 
 #theTime {
   font-size: 105;
-  font-family: System-Bold;
+  font-family: System-Regular;
   text-length: 32;
   text-anchor: middle;
   x: 50%;
@@ -27,12 +27,22 @@
 
 #ukTime {
   font-size: 40;
-  font-family: System-Bold;
+  font-family: System-Regular;
   text-length: 32;
   text-anchor: middle;
   x: 50%;
   y: 50%+58;
   fill: #dddddd;
+}
+
+#secsDisplay {
+  font-size: 24;
+  font-family: System-Regular;
+  text-length: 15;
+  text-anchor: start;
+  x: 50%+58;
+  y: 50%+58;
+  fill: #bbbbbb;
 }
 
 #ukFlagIcon {
@@ -43,7 +53,6 @@
 }
 
 #power {
-  font-weight: bold;
   font-size: 20;
   font-family: System-Bold;
   text-length: 20;
@@ -61,7 +70,6 @@
 }
 
 #theDate {
-  font-weight: bold;
   font-size: 22;
   font-family: System-Bold;
   text-length: 30;

@@ -9,11 +9,12 @@ import { today as toDay } from "user-activity";
 import { battery } from "power";
 
 // update the clock every minute
-clock.granularity = "minutes";
+clock.granularity = "seconds";
 
 // get handles for <text> elements
 const theTime = document.getElementById("theTime");
 const ukTime = document.getElementById("ukTime");
+const secsDisplay = document.getElementById("secsDisplay");
 const theDate = document.getElementById("theDate");
 const heartRate = document.getElementById("heartRate");
 const heartIcon = document.getElementById("heartIcon");
@@ -43,7 +44,6 @@ if (HeartRateSensor) {
 clock.ontick = (evt) => {
   let today = evt.date;
   let hours = today.getHours();
-  let seconds = today.getSeconds();
   let ukHours = hours + 8;
 
   if (preferences.clockDisplay === "12h") {
@@ -61,6 +61,8 @@ clock.ontick = (evt) => {
   let mins = util.zeroPad(today.getMinutes());
   theTime.text = `${hours}:${mins}`;
   ukTime.text = `${ukHours}:${mins}`;
+  let seconds = util.zeroPad(today.getSeconds());
+  secsDisplay.text = `:${seconds}`;
 
   theTime.style.fill = util.getTimeColor(today);
   

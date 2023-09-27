@@ -9,6 +9,7 @@
   <image id="ukFlagIcon" href="icons/uk_flag_icon.png" />
   <text id="theTime"></text>
   <text id="ukTime"></text>
+  <text id="secsDisplay"></text>
   <text id="justForJay"></text>
   <text id="theDate"></text>
   <text id="heartRate"></text>
