@@ -27,7 +27,7 @@
 
 #ukTime {
   font-size: 40;
-  font-family: System-Regular;
+  font-family: System-Bold;
   text-length: 32;
   text-anchor: middle;
   x: 50%;
@@ -36,8 +36,8 @@
 }
 
 #secsDisplay {
-  font-size: 24;
-  font-family: System-Regular;
+  font-size: 26;
+  font-family: System-Bold;
   text-length: 15;
   text-anchor: start;
   x: 50%+58;

@@ -24,7 +24,7 @@ const floors = document.getElementById("floors");
 const power = document.getElementById("power");
 
 const bg = document.getElementById("image");
-bg.href = `images/${util.getImage(0)}.jpg`;
+//bg.href = `images/${util.getImage(0)}.jpg`;
 
 const batteryIcon = document.getElementById("batteryIcon");
 
@@ -64,7 +64,9 @@ clock.ontick = (evt) => {
   let seconds = util.zeroPad(today.getSeconds());
   secsDisplay.text = `:${seconds}`;
 
-  theTime.style.fill = util.getTimeColor(today);
+  if(mins % 30 == 0) {
+    theTime.style.fill = util.getTimeColor(today);
+  }
   
   let thisMonth = today.getMonth();
   let thisDay = today.getDay();
