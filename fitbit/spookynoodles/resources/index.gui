@@ -1,0 +1,12 @@
+<svg>
+  <arc id="hourRing" x="30" y="30" width="240" height="240" fill="#d70040" arc-width="20" start-angle="0" sweep-angle="0" />
+  <arc id="minuteRing" x="52" y="52" width="196" height="196" fill="#ff4500" arc-width="20" start-angle="0" sweep-angle="0" />
+  <arc id="secondRing" x="74" y="74" width="152" height="152" fill="#f4d03f" arc-width="20" start-angle="0" sweep-angle="0" />
+
+  <arc id="stepRing10k" x="110" y="110" width="80" height="80" fill="green" arc-width="10" start-angle="0" sweep-angle="0" />
+  <arc id="stepRing20k" x="110" y="110" width="80" height="80" fill="blue" arc-width="10" start-angle="0" sweep-angle="0" />
+  <arc id="stepRing30k" x="110" y="110" width="80" height="80" fill="purple" arc-width="10" start-angle="0" sweep-angle="0" />
+
+  <text id="power"></text>
+  <image id="batteryIcon" href="" />
+</svg>
