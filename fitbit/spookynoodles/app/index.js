@@ -1,9 +1,9 @@
 import clock from "clock";
 //import * as document from "document";
 import document from "document";
-import { preferences } from "user-settings";
-import * as util from "../resources/utils";
-import { HeartRateSensor } from "heart-rate";
+//import { preferences } from "user-settings";
+//import * as util from "../resources/utils";
+//import { HeartRateSensor } from "heart-rate";
 import { me as appbit } from "appbit";
 import { today as toDay } from "user-activity";
 import { battery } from "power";
@@ -90,16 +90,12 @@ clock.ontick = (evt) => {
 function updateHourArc(h) {
   if(h != 0) {
     hourRing.sweepAngle = h * 15;
-  } else {
-    hourRing.sweepAngle = .5;
   }
 }
 
 function updateMinuteArc(m) {
   if(m != 0) {
     minuteRing.sweepAngle = m * 6;
-  } else {
-    minuteRing.sweepAngle = .5;
   }
 }
 
