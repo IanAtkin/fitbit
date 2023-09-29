@@ -1,8 +1,8 @@
 import clock from "clock";
 //import * as document from "document";
 import document from "document";
-//import { preferences } from "user-settings";
-//import * as util from "../resources/utils";
+import { preferences } from "user-settings";
+import * as util from "../resources/utils";
 //import { HeartRateSensor } from "heart-rate";
 import { me as appbit } from "appbit";
 import { today as toDay } from "user-activity";
@@ -20,6 +20,14 @@ const secondRing = document.getElementById("secondRing");
 const stepRing10k = document.getElementById("stepRing10k");
 const stepRing20k = document.getElementById("stepRing20k");
 const stepRing30k = document.getElementById("stepRing30k");
+
+const line24 = document.getElementById("line24");
+const line12 = document.getElementById("line12");
+
+const theTime = document.getElementById("theTime");
+const theDate = document.getElementById("theDate");
+
+const monthsOfYear = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 const batteryIcon = document.getElementById("batteryIcon");
 const power = document.getElementById("power");
@@ -39,9 +47,25 @@ if (HeartRateSensor) {
 clock.ontick = (evt) => {
   let today = evt.date;
   let hours = today.getHours();
-  let minutes = today.getMinutes();
+  let minutes = util.zeroPad(today.getMinutes());
   let seconds = today.getSeconds();
-    
+
+  if (preferences.clockDisplay === "12h") {
+    hours = util.zeroPad(hours % 12) || 12;
+    line24.style.visibility = "hidden";
+    line12.style.visibility = "visible";
+  } else {
+    hours = util.zeroPad(hours);
+    line24.style.visibility = "visible";
+    line12.style.visibility = "hidden";
+  }
+
+  let thisMonth = today.getMonth();
+  let thisDate = today.getDate();
+
+  theTime.text = `${hours}:${minutes}`;
+  theDate.text = `${monthsOfYear[thisMonth]} ${thisDate}`;
+  
   /* heart rate */
   /*
   if (HeartRateSensor) {
@@ -89,26 +113,32 @@ clock.ontick = (evt) => {
 
 function updateHourArc(h) {
   if(h != 0) {
-    hourRing.sweepAngle = h * 15;
+    if (preferences.clockDisplay === "12h") {
+      hourRing.sweepAngle = h * 22.5;
+    } else {
+      hourRing.sweepAngle = h * 11.25;
+    }
   }
 }
 
 function updateMinuteArc(m) {
   if(m != 0) {
-    minuteRing.sweepAngle = m * 6;
+    minuteRing.sweepAngle = m * 4.5;
   }
 }
 
 function updateSecondArc(s) {
-  secondRing.sweepAngle = s * 6;
+  secondRing.sweepAngle = s * 4.5;
 }
 
 function updateStepArc(s) {
   //console.log(s);
-  if(s <= 10000) {
-    stepRing10k.sweepAngle = s * .036;
-  } else {
-    stepRing10k.sweepAngle = 360;
+  if(s <= 30000) {
+    if(s <= 10000) {
+      stepRing10k.sweepAngle = s * .036;
+    } else {
+      stepRing10k.sweepAngle = 360;
+    }
   }
 
   if(s > 10000) {
