@@ -20,6 +20,7 @@ const secondRing = document.getElementById("secondRing");
 const stepRing10k = document.getElementById("stepRing10k");
 const stepRing20k = document.getElementById("stepRing20k");
 const stepRing30k = document.getElementById("stepRing30k");
+const stepRing40k = document.getElementById("stepRing40k");
 
 const line24 = document.getElementById("line24");
 const line12 = document.getElementById("line12");
@@ -102,61 +103,11 @@ clock.ontick = (evt) => {
     batteryIcon.href = "icons/critical_battery_icon.png"
   }
   
-  updateHourArc(hours);
-  updateMinuteArc(minutes);
-  updateSecondArc(seconds);
+  util.updateHourArc(hours, hourRing, preferences.clockDisplay);
+  util.updateMinuteArc(minutes, minuteRing);
+  util.updateSecondArc(seconds, secondRing);
 
   if (appbit.permissions.granted("access_activity")) {
-    updateStepArc(toDay.adjusted.steps);
+    util.updateStepArc(toDay.adjusted.steps, stepRing10k, stepRing20k, stepRing30k, stepRing40k);
   }
-}
-
-function updateHourArc(h) {
-  if(h != 0) {
-    if (preferences.clockDisplay === "12h") {
-      hourRing.sweepAngle = h * 22.5;
-    } else {
-      hourRing.sweepAngle = h * 11.25;
-    }
-  }
-}
-
-function updateMinuteArc(m) {
-  if(m != 0) {
-    minuteRing.sweepAngle = m * 4.5;
-  }
-}
-
-function updateSecondArc(s) {
-  secondRing.sweepAngle = s * 4.5;
-}
-
-function updateStepArc(s) {
-  //console.log(s);
-  if(s <= 30000) {
-    if(s <= 10000) {
-      stepRing10k.sweepAngle = s * .036;
-    } else {
-      stepRing10k.sweepAngle = 360;
-    }
-  }
-
-  if(s > 10000) {
-    if(s <= 20000) {
-      stepRing20k.sweepAngle = (s - 10000) * .036;
-    }
-    if(s >= 20000) {
-      stepRing20k.sweepAngle = 360;
-    }
-  }
-
-  if(s > 20000) {
-    if(s <= 30000) {
-      stepRing30k.sweepAngle = (s - 20000) * .036;
-    }
-    if(s >= 30000) {
-      stepRing30k.sweepAngle = 360;
-    }
-  }
-
 }
