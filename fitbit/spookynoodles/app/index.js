@@ -23,7 +23,6 @@ const stepRing30k = document.getElementById("stepRing30k");
 const stepRing40k = document.getElementById("stepRing40k");
 
 const line24 = document.getElementById("line24");
-const line12 = document.getElementById("line12");
 
 const theTime = document.getElementById("theTime");
 const theDate = document.getElementById("theDate");
@@ -54,11 +53,9 @@ clock.ontick = (evt) => {
   if (preferences.clockDisplay === "12h") {
     hours = util.zeroPad(hours % 12) || 12;
     line24.style.visibility = "hidden";
-    line12.style.visibility = "visible";
   } else {
     hours = util.zeroPad(hours);
     line24.style.visibility = "visible";
-    line12.style.visibility = "hidden";
   }
 
   let thisMonth = today.getMonth();

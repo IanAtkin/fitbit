@@ -23,8 +23,7 @@
   <arc id="stepRing30k" x="110" y="110" width="80" height="80" fill="indigo" arc-width="10" start-angle="0" sweep-angle="0" />
   <arc id="stepRing40k" x="110" y="110" width="80" height="80" fill="#7f00ff" arc-width="10" start-angle="0" sweep-angle="0" />
 
-  <line id="line24" x1="58" y1="58" x2="104" y2="104" fill="black" stroke-width="2" />
-  <line id="line12" x1="74" y1="74" x2="104" y2="104" fill="black" stroke-width="2" />
+  <line id="line24" x1="70" y1="48" x2="82" y2="64" fill="black" stroke-width="2" />
 
   <text id="theTime"></text>
   <text id="theDate"></text>

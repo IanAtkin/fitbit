@@ -7,23 +7,24 @@ export function zeroPad(i) {
 }
 
 export function updateHourArc(h, el, pcd) {
-  if(h != 0) {
-    if (pcd.clockDisplay === "12h") {
-      el.sweepAngle = h * 22.5;
-    } else {
-      el.sweepAngle = h * 11.25;
+  if (pcd === "12h") {
+    if(h == 12) {
+      h = 0;
     }
+    el.sweepAngle = h * 24.545454545454545;
+  } else {
+    el.sweepAngle = h * 11.739130434782609;
   }
 }
 
 export function updateMinuteArc(m, el) {
   if(m != 0) {
-    el.sweepAngle = m * 4.5;
+    el.sweepAngle = m * 4.576271186440678;
   }
 }
 
 export function updateSecondArc(s, el) {
-  el.sweepAngle = s * 4.5;
+  el.sweepAngle = s * 4.576271186440678;
 }
 
 export function updateStepArc(s, s10k, s20k, s30k, s40k) {
