@@ -1,0 +1,64 @@
+<svg viewport-fill="black">
+  <!--<mask id="mask">
+    <circle cx="50%" cy="50%" r="130" />
+  </mask>
+  <svg mask="#mask" width="100%" height="100%">
+    <gradientRect width="100%" height="100%" fill="black"
+      gradient-type="bilinear"
+      gradient-x1="20%" gradient-y1="40%"
+      gradient-x2="60%" gradient-y2="60%"
+      gradient-color2="#bbbbbb"
+      gradient-color3="#dddddd"
+      gradient-color4="#ffffff" />
+  </svg>-->
+
+  <svg id="twelveHour">
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="30" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="60" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="120" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="150" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="210" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="240" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="300" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="330" sweep-angle="1" />
+  </svg>
+
+    <svg id="twentyFourHour">
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="15" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="30" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="45" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="60" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="75" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="105" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="120" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="135" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="150" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="165" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="195" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="210" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="225" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="240" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="255" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="285" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="300" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="315" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="330" sweep-angle="1" />
+    <arc x="25" y="25" width="250" height="250" fill="#555555" arc-width="100" start-angle="345" sweep-angle="1" />
+  </svg>
+
+  <arc x="25" y="25" width="250" height="250" fill="#666666" arc-width="400" start-angle="359" sweep-angle="2" />
+  <arc x="25" y="25" width="250" height="250" fill="#666666" arc-width="400" start-angle="89" sweep-angle="2" />
+  <arc x="25" y="25" width="250" height="250" fill="#666666" arc-width="400" start-angle="179" sweep-angle="2" />
+  <arc x="25" y="25" width="250" height="250" fill="#666666" arc-width="400" start-angle="269" sweep-angle="2" />
+
+  <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-4" y="-110" width="8" height="110" fill="#d70040" />
+  </g>
+  <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-6" y="-75" width="12" height="75" fill="#f28c28" />
+  </g>
+  <g id="secs" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-2" y="-120" width="4" height="120" fill="#ffc000" />
+  </g>
+  <circle cx="50%" cy="50%" r="10" fill="#222222" />
+</svg>

@@ -12,9 +12,38 @@
     arc-width="20" start-angle="0" sweep-angle="0" />
   -->
 
-  <arc id="hourRing" x="21" y="21" width="260" height="260" fill="#d70040" arc-width="20" start-angle="180" sweep-angle="0" />
-  <arc id="minuteRing" x="43" y="43" width="216" height="216" fill="#ff7f50" arc-width="20" start-angle="180" sweep-angle="0" />
-  <arc id="secondRing" x="65" y="65" width="172" height="172" fill="#f4d03f" arc-width="20" start-angle="180" sweep-angle="0" />
+  <mask id="red">
+    <arc id="hourRing" x="21" y="21" width="260" height="260" arc-width="20" start-angle="180" sweep-angle="0" />
+  </mask>
+  <svg mask="#red" width="100%" height="100%">
+    <gradientRect width="100%" height="100%"
+      gradient-type="linear"
+      gradient-x1="0" gradient-y1="50"
+      gradient-x2="0" gradient-y2="100%"
+      gradient-color1="#d70040" gradient-color2="#880808" />
+  </svg>
+
+  <mask id="orange">
+    <arc id="minuteRing" x="43" y="43" width="216" height="216" arc-width="20" start-angle="180" sweep-angle="0" />
+  </mask>
+  <svg mask="#orange" width="100%" height="100%">
+    <gradientRect width="100%" height="100%"
+      gradient-type="linear"
+      gradient-x1="0" gradient-y1="50"
+      gradient-x2="0" gradient-y2="100%"
+      gradient-color1="#f28c28" gradient-color2="#ff5f1f" />
+  </svg>
+  
+  <mask id="yellow">
+    <arc id="secondRing" x="65" y="65" width="172" height="172" arc-width="20" start-angle="180" sweep-angle="0" />
+  </mask>
+  <svg mask="#yellow" width="100%" height="100%">
+    <gradientRect width="100%" height="100%"
+      gradient-type="linear"
+      gradient-x1="0" gradient-y1="50"
+      gradient-x2="0" gradient-y2="100%"
+      gradient-color1="#ffc000" gradient-color2="#bbbb00" />
+  </svg>
 
   <arc id="stepRingBase" x="110" y="110" width="80" height="80" fill="#222222" arc-width="10" start-angle="0" sweep-angle="360" />
 

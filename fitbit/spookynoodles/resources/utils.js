@@ -28,8 +28,7 @@ export function updateSecondArc(s, el) {
 }
 
 export function updateStepArc(s, s10k, s20k, s30k, s40k) {
-  if (s == 0) {
-    s10k.sweepAngle = 0;
+  if (s < 10001) {
     s20k.sweepAngle = 0;
     s30k.sweepAngle = 0;
     s40k.sweepAngle = 0;
