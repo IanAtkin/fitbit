@@ -1,0 +1,31 @@
+#mins {
+  opacity: 1;
+}
+
+#hours {
+  opacity: 1;
+}
+
+#secs {
+  opacity: 1;
+}
+
+#type12 {
+  font-size: 16;
+  font-family: System-Bold;
+  font-weight: regular;
+  text-length: 32;
+  fill: #30333c;
+  x: 10%;
+  y: 50%-70;
+}
+
+#type24 {
+  font-size: 16;
+  font-family: System-Bold;
+  font-weight: regular;
+  text-length: 32;
+  fill: #30333c;
+  x: 10%+50;
+  y: 50%-70;
+}
