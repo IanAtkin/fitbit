@@ -1,8 +1,7 @@
 // add zero in front of numbers < 10
-export function zeroPad(i) {
-  if (i < 10) {
-    i = "0" + i;
-  }
+export function zeroPad(i, d = 2) {
+  i = i.toString();
+  while (i.length < d) i = "0" + i;
   return i;
 }
 
