@@ -1,5 +1,5 @@
 {
-  "name": "dev",
+  "name": "blox",
   "version": "0.0.0",
   "private": true,
   "license": "UNLICENSED",
@@ -10,7 +10,7 @@
   "fitbit": {
     "appUUID": "42aacc74-3ac7-4ef9-ae23-a5f793008aff",
     "appType": "clockface",
-    "appDisplayName": "Dev",
+    "appDisplayName": "BLOX",
     "iconFile": "resources/icon.png",
     "wipeColor": "#607d8b",
     "requestedPermissions": [

@@ -1,3 +1,477 @@
 <svg viewport-fill="black">
-  <rect ... />
+  <!-- background -->
+  <!-- hours -->
+  <svg>
+    <rect x="24" y="24" width="12" height="12" fill="#333333" />
+    <rect x="40" y="24" width="12" height="12" fill="#333333" />
+    <rect x="56" y="24" width="12" height="12" fill="#333333" />
+    <rect x="72" y="24" width="12" height="12" fill="#333333" />
+    <rect x="88" y="24" width="12" height="12" fill="#333333" />
+
+    <rect x="24" y="40" width="12" height="12" fill="#333333" />
+    <rect x="40" y="40" width="12" height="12" fill="#333333" />
+    <rect x="56" y="40" width="12" height="12" fill="#333333" />
+    <rect x="72" y="40" width="12" height="12" fill="#333333" />
+    <rect x="88" y="40" width="12" height="12" fill="#333333" />
+  </svg>
+  <svg>
+    <rect x="112" y="24" width="12" height="12" fill="#333333" />
+    <rect x="128" y="24" width="12" height="12" fill="#333333" />
+    <rect x="144" y="24" width="12" height="12" fill="#333333" />
+    <rect x="160" y="24" width="12" height="12" fill="#333333" />
+    <rect x="176" y="24" width="12" height="12" fill="#333333" />
+
+    <rect x="112" y="40" width="12" height="12" fill="#333333" />
+    <rect x="128" y="40" width="12" height="12" fill="#333333" />
+    <rect x="144" y="40" width="12" height="12" fill="#333333" />
+    <rect x="160" y="40" width="12" height="12" fill="#333333" />
+    <rect x="176" y="40" width="12" height="12" fill="#333333" />
+  </svg>
+  <svg>
+    <rect x="200" y="24" width="12" height="12" fill="#333333" />
+    <rect x="216" y="24" width="12" height="12" fill="#333333" />
+    <rect x="232" y="24" width="12" height="12" fill="#333333" />
+    <rect x="248" y="24" width="12" height="12" fill="#333333" />
+    <rect x="264" y="24" width="12" height="12" fill="#333333" />
+
+    <rect x="200" y="40" width="12" height="12" fill="#333333" />
+    <rect x="216" y="40" width="12" height="12" fill="#333333" />
+    <rect x="232" y="40" width="12" height="12" fill="#333333" />
+    <rect x="248" y="40" width="12" height="12" fill="#333333" />
+    <rect x="264" y="40" width="12" height="12" fill="#333333" />
+  </svg>
+
+  <!-- minutes -->
+  <svg>
+    <rect x="24" y="72" width="12" height="12" fill="#333333" />
+    <rect x="40" y="72" width="12" height="12" fill="#333333" />
+    <rect x="56" y="72" width="12" height="12" fill="#333333" />
+    <rect x="72" y="72" width="12" height="12" fill="#333333" />
+    <rect x="88" y="72" width="12" height="12" fill="#333333" />
+
+    <rect x="24" y="88" width="12" height="12" fill="#333333" />
+    <rect x="40" y="88" width="12" height="12" fill="#333333" />
+    <rect x="56" y="88" width="12" height="12" fill="#333333" />
+    <rect x="72" y="88" width="12" height="12" fill="#333333" />
+    <rect x="88" y="88" width="12" height="12" fill="#333333" />
+  </svg>
+  <svg>
+    <rect x="112" y="72" width="12" height="12" fill="#333333" />
+    <rect x="128" y="72" width="12" height="12" fill="#333333" />
+    <rect x="144" y="72" width="12" height="12" fill="#333333" />
+    <rect x="160" y="72" width="12" height="12" fill="#333333" />
+    <rect x="176" y="72" width="12" height="12" fill="#333333" />
+
+    <rect x="112" y="88" width="12" height="12" fill="#333333" />
+    <rect x="128" y="88" width="12" height="12" fill="#333333" />
+    <rect x="144" y="88" width="12" height="12" fill="#333333" />
+    <rect x="160" y="88" width="12" height="12" fill="#333333" />
+    <rect x="176" y="88" width="12" height="12" fill="#333333" />
+  </svg>
+  <svg>
+    <rect x="200" y="72" width="12" height="12" fill="#333333" />
+    <rect x="216" y="72" width="12" height="12" fill="#333333" />
+    <rect x="232" y="72" width="12" height="12" fill="#333333" />
+    <rect x="248" y="72" width="12" height="12" fill="#333333" />
+    <rect x="264" y="72" width="12" height="12" fill="#333333" />
+
+    <rect x="200" y="88" width="12" height="12" fill="#333333" />
+    <rect x="216" y="88" width="12" height="12" fill="#333333" />
+    <rect x="232" y="88" width="12" height="12" fill="#333333" />
+    <rect x="248" y="88" width="12" height="12" fill="#333333" />
+    <rect x="264" y="88" width="12" height="12" fill="#333333" />
+  </svg>
+  <svg>
+    <rect x="24" y="112" width="12" height="12" fill="#333333" />
+    <rect x="40" y="112" width="12" height="12" fill="#333333" />
+    <rect x="56" y="112" width="12" height="12" fill="#333333" />
+    <rect x="72" y="112" width="12" height="12" fill="#333333" />
+    <rect x="88" y="112" width="12" height="12" fill="#333333" />
+
+    <rect x="24" y="128" width="12" height="12" fill="#333333" />
+    <rect x="40" y="128" width="12" height="12" fill="#333333" />
+    <rect x="56" y="128" width="12" height="12" fill="#333333" />
+    <rect x="72" y="128" width="12" height="12" fill="#333333" />
+    <rect x="88" y="128" width="12" height="12" fill="#333333" />
+  </svg>
+  <svg>
+    <rect x="112" y="112" width="12" height="12" fill="#333333" />
+    <rect x="128" y="112" width="12" height="12" fill="#333333" />
+    <rect x="144" y="112" width="12" height="12" fill="#333333" />
+    <rect x="160" y="112" width="12" height="12" fill="#333333" />
+    <rect x="176" y="112" width="12" height="12" fill="#333333" />
+
+    <rect x="112" y="128" width="12" height="12" fill="#333333" />
+    <rect x="128" y="128" width="12" height="12" fill="#333333" />
+    <rect x="144" y="128" width="12" height="12" fill="#333333" />
+    <rect x="160" y="128" width="12" height="12" fill="#333333" />
+    <rect x="176" y="128" width="12" height="12" fill="#333333" />
+  </svg>
+  <svg>
+    <rect x="200" y="112" width="12" height="12" fill="#333333" />
+    <rect x="216" y="112" width="12" height="12" fill="#333333" />
+    <rect x="232" y="112" width="12" height="12" fill="#333333" />
+    <rect x="248" y="112" width="12" height="12" fill="#333333" />
+    <rect x="264" y="112" width="12" height="12" fill="#333333" />
+
+    <rect x="200" y="128" width="12" height="12" fill="#333333" />
+    <rect x="216" y="128" width="12" height="12" fill="#333333" />
+    <rect x="232" y="128" width="12" height="12" fill="#333333" />
+    <rect x="248" y="128" width="12" height="12" fill="#333333" />
+    <rect x="264" y="128" width="12" height="12" fill="#333333" />
+  </svg>
+
+  <!-- seconds -->
+  <svg>
+    <rect x="24" y="160" width="12" height="12" fill="#333333" />
+    <rect x="40" y="160" width="12" height="12" fill="#333333" />
+    <rect x="56" y="160" width="12" height="12" fill="#333333" />
+    <rect x="72" y="160" width="12" height="12" fill="#333333" />
+    <rect x="88" y="160" width="12" height="12" fill="#333333" />
+
+    <rect x="24" y="176" width="12" height="12" fill="#333333" />
+    <rect x="40" y="176" width="12" height="12" fill="#333333" />
+    <rect x="56" y="176" width="12" height="12" fill="#333333" />
+    <rect x="72" y="176" width="12" height="12" fill="#333333" />
+    <rect x="88" y="176" width="12" height="12" fill="#333333" />
+  </svg>
+  <svg>
+    <rect x="112" y="160" width="12" height="12" fill="#333333" />
+    <rect x="128" y="160" width="12" height="12" fill="#333333" />
+    <rect x="144" y="160" width="12" height="12" fill="#333333" />
+    <rect x="160" y="160" width="12" height="12" fill="#333333" />
+    <rect x="176" y="160" width="12" height="12" fill="#333333" />
+
+    <rect x="112" y="176" width="12" height="12" fill="#333333" />
+    <rect x="128" y="176" width="12" height="12" fill="#333333" />
+    <rect x="144" y="176" width="12" height="12" fill="#333333" />
+    <rect x="160" y="176" width="12" height="12" fill="#333333" />
+    <rect x="176" y="176" width="12" height="12" fill="#333333" />
+  </svg>
+  <svg>
+    <rect x="200" y="160" width="12" height="12" fill="#333333" />
+    <rect x="216" y="160" width="12" height="12" fill="#333333" />
+    <rect x="232" y="160" width="12" height="12" fill="#333333" />
+    <rect x="248" y="160" width="12" height="12" fill="#333333" />
+    <rect x="264" y="160" width="12" height="12" fill="#333333" />
+
+    <rect x="200" y="176" width="12" height="12" fill="#333333" />
+    <rect x="216" y="176" width="12" height="12" fill="#333333" />
+    <rect x="232" y="176" width="12" height="12" fill="#333333" />
+    <rect x="248" y="176" width="12" height="12" fill="#333333" />
+    <rect x="264" y="176" width="12" height="12" fill="#333333" />
+  </svg>
+  <svg>
+    <rect x="24" y="200" width="12" height="12" fill="#333333" />
+    <rect x="40" y="200" width="12" height="12" fill="#333333" />
+    <rect x="56" y="200" width="12" height="12" fill="#333333" />
+    <rect x="72" y="200" width="12" height="12" fill="#333333" />
+    <rect x="88" y="200" width="12" height="12" fill="#333333" />
+
+    <rect x="24" y="216" width="12" height="12" fill="#333333" />
+    <rect x="40" y="216" width="12" height="12" fill="#333333" />
+    <rect x="56" y="216" width="12" height="12" fill="#333333" />
+    <rect x="72" y="216" width="12" height="12" fill="#333333" />
+    <rect x="88" y="216" width="12" height="12" fill="#333333" />
+  </svg>
+  <svg>
+    <rect x="112" y="200" width="12" height="12" fill="#333333" />
+    <rect x="128" y="200" width="12" height="12" fill="#333333" />
+    <rect x="144" y="200" width="12" height="12" fill="#333333" />
+    <rect x="160" y="200" width="12" height="12" fill="#333333" />
+    <rect x="176" y="200" width="12" height="12" fill="#333333" />
+
+    <rect x="112" y="216" width="12" height="12" fill="#333333" />
+    <rect x="128" y="216" width="12" height="12" fill="#333333" />
+    <rect x="144" y="216" width="12" height="12" fill="#333333" />
+    <rect x="160" y="216" width="12" height="12" fill="#333333" />
+    <rect x="176" y="216" width="12" height="12" fill="#333333" />
+  </svg>
+  <svg>
+    <rect x="200" y="200" width="12" height="12" fill="#333333" />
+    <rect x="216" y="200" width="12" height="12" fill="#333333" />
+    <rect x="232" y="200" width="12" height="12" fill="#333333" />
+    <rect x="248" y="200" width="12" height="12" fill="#333333" />
+    <rect x="264" y="200" width="12" height="12" fill="#333333" />
+
+    <rect x="200" y="216" width="12" height="12" fill="#333333" />
+    <rect x="216" y="216" width="12" height="12" fill="#333333" />
+    <rect x="232" y="216" width="12" height="12" fill="#333333" />
+    <rect x="248" y="216" width="12" height="12" fill="#333333" />
+    <rect x="264" y="216" width="12" height="12" fill="#333333" />
+  </svg>
+
+  <!-- steps -->
+  <svg>
+    <rect x="24" y="250" width="12" height="12" fill="#333333" />
+    <rect x="40" y="250" width="12" height="12" fill="#333333" />
+    <rect x="56" y="250" width="12" height="12" fill="#333333" />
+    <rect x="72" y="250" width="12" height="12" fill="#333333" />
+    <rect x="88" y="250" width="12" height="12" fill="#333333" />
+
+    <rect x="24" y="266" width="12" height="12" fill="#333333" />
+    <rect x="40" y="266" width="12" height="12" fill="#333333" />
+    <rect x="56" y="266" width="12" height="12" fill="#333333" />
+    <rect x="72" y="266" width="12" height="12" fill="#333333" />
+    <rect x="88" y="266" width="12" height="12" fill="#333333" />
+  </svg>
+  <svg>
+    <rect x="112" y="250" width="12" height="12" fill="#333333" />
+    <rect x="128" y="250" width="12" height="12" fill="#333333" />
+    <rect x="144" y="250" width="12" height="12" fill="#333333" />
+    <rect x="160" y="250" width="12" height="12" fill="#333333" />
+    <rect x="176" y="250" width="12" height="12" fill="#333333" />
+
+    <rect x="112" y="266" width="12" height="12" fill="#333333" />
+    <rect x="128" y="266" width="12" height="12" fill="#333333" />
+    <rect x="144" y="266" width="12" height="12" fill="#333333" />
+    <rect x="160" y="266" width="12" height="12" fill="#333333" />
+    <rect x="176" y="266" width="12" height="12" fill="#333333" />
+  </svg>
+  <svg>
+    <rect x="200" y="250" width="12" height="12" fill="#333333" />
+    <rect x="216" y="250" width="12" height="12" fill="#333333" />
+    <rect x="232" y="250" width="12" height="12" fill="#333333" />
+    <rect x="248" y="250" width="12" height="12" fill="#333333" />
+    <rect x="264" y="250" width="12" height="12" fill="#333333" />
+
+    <rect x="200" y="266" width="12" height="12" fill="#333333" />
+    <rect x="216" y="266" width="12" height="12" fill="#333333" />
+    <rect x="232" y="266" width="12" height="12" fill="#333333" />
+    <rect x="248" y="266" width="12" height="12" fill="#333333" />
+    <rect x="264" y="266" width="12" height="12" fill="#333333" />
+  </svg>
+
+  <!-- blocks -->
+  <!-- hours -->
+  <svg>
+    <rect id="h1" x="24" y="24" width="12" height="12" fill="#d3341f" />
+    <rect id="h2" x="40" y="24" width="12" height="12" fill="#d3341f" />
+    <rect id="h3" x="56" y="24" width="12" height="12" fill="#d3341f" />
+    <rect id="h4" x="72" y="24" width="12" height="12" fill="#d3341f" />
+    <rect id="h5" x="88" y="24" width="12" height="12" fill="#d3341f" />
+
+    <rect id="h6" x="24" y="40" width="12" height="12" fill="#d3341f" />
+    <rect id="h7" x="40" y="40" width="12" height="12" fill="#d3341f" />
+    <rect id="h8" x="56" y="40" width="12" height="12" fill="#d3341f" />
+    <rect id="h9" x="72" y="40" width="12" height="12" fill="#d3341f" />
+    <rect id="h10" x="88" y="40" width="12" height="12" fill="#d3341f" />
+  </svg>
+  <svg>
+    <rect id="h11" x="112" y="24" width="12" height="12" fill="#d3341f" />
+    <rect id="h12" x="128" y="24" width="12" height="12" fill="#d3341f" />
+    <rect id="h13" x="144" y="24" width="12" height="12" fill="#d3341f" />
+    <rect id="h14" x="160" y="24" width="12" height="12" fill="#d3341f" />
+    <rect id="h15" x="176" y="24" width="12" height="12" fill="#d3341f" />
+
+    <rect id="h16" x="112" y="40" width="12" height="12" fill="#d3341f" />
+    <rect id="h17" x="128" y="40" width="12" height="12" fill="#d3341f" />
+    <rect id="h18" x="144" y="40" width="12" height="12" fill="#d3341f" />
+    <rect id="h19" x="160" y="40" width="12" height="12" fill="#d3341f" />
+    <rect id="h20" x="176" y="40" width="12" height="12" fill="#d3341f" />
+  </svg>
+  <svg>
+    <rect id="h21" x="200" y="24" width="12" height="12" fill="#d3341f" />
+    <rect id="h22" x="216" y="24" width="12" height="12" fill="#d3341f" />
+    <rect id="h23" x="232" y="24" width="12" height="12" fill="#d3341f" />
+  </svg>
+
+  <!-- minutes -->
+  <svg>
+    <rect id="m1" x="24" y="72" width="12" height="12" fill="#f49119" />
+    <rect id="m2" x="40" y="72" width="12" height="12" fill="#f49119" />
+    <rect id="m3" x="56" y="72" width="12" height="12" fill="#f49119" />
+    <rect id="m4" x="72" y="72" width="12" height="12" fill="#f49119" />
+    <rect id="m5" x="88" y="72" width="12" height="12" fill="#f49119" />
+
+    <rect id="m6" x="24" y="88" width="12" height="12" fill="#f49119" />
+    <rect id="m7" x="40" y="88" width="12" height="12" fill="#f49119" />
+    <rect id="m8" x="56" y="88" width="12" height="12" fill="#f49119" />
+    <rect id="m9" x="72" y="88" width="12" height="12" fill="#f49119" />
+    <rect id="m10" x="88" y="88" width="12" height="12" fill="#f49119" />
+  </svg>
+  <svg>
+    <rect id="m11" x="112" y="72" width="12" height="12" fill="#f49119" />
+    <rect id="m12" x="128" y="72" width="12" height="12" fill="#f49119" />
+    <rect id="m13" x="144" y="72" width="12" height="12" fill="#f49119" />
+    <rect id="m14" x="160" y="72" width="12" height="12" fill="#f49119" />
+    <rect id="m15" x="176" y="72" width="12" height="12" fill="#f49119" />
+
+    <rect id="m16" x="112" y="88" width="12" height="12" fill="#f49119" />
+    <rect id="m17" x="128" y="88" width="12" height="12" fill="#f49119" />
+    <rect id="m18" x="144" y="88" width="12" height="12" fill="#f49119" />
+    <rect id="m19" x="160" y="88" width="12" height="12" fill="#f49119" />
+    <rect id="m20" x="176" y="88" width="12" height="12" fill="#f49119" />
+  </svg>
+  <svg>
+    <rect id="m21" x="200" y="72" width="12" height="12" fill="#f49119" />
+    <rect id="m22" x="216" y="72" width="12" height="12" fill="#f49119" />
+    <rect id="m23" x="232" y="72" width="12" height="12" fill="#f49119" />
+    <rect id="m24" x="248" y="72" width="12" height="12" fill="#f49119" />
+    <rect id="m25" x="264" y="72" width="12" height="12" fill="#f49119" />
+
+    <rect id="m26" x="200" y="88" width="12" height="12" fill="#f49119" />
+    <rect id="m27" x="216" y="88" width="12" height="12" fill="#f49119" />
+    <rect id="m28" x="232" y="88" width="12" height="12" fill="#f49119" />
+    <rect id="m29" x="248" y="88" width="12" height="12" fill="#f49119" />
+    <rect id="m30" x="264" y="88" width="12" height="12" fill="#f49119" />
+  </svg>
+  <svg>
+    <rect id="m31" x="24" y="112" width="12" height="12" fill="#f49119" />
+    <rect id="m32" x="40" y="112" width="12" height="12" fill="#f49119" />
+    <rect id="m33" x="56" y="112" width="12" height="12" fill="#f49119" />
+    <rect id="m34" x="72" y="112" width="12" height="12" fill="#f49119" />
+    <rect id="m35" x="88" y="112" width="12" height="12" fill="#f49119" />
+
+    <rect id="m36" x="24" y="128" width="12" height="12" fill="#f49119" />
+    <rect id="m37" x="40" y="128" width="12" height="12" fill="#f49119" />
+    <rect id="m38" x="56" y="128" width="12" height="12" fill="#f49119" />
+    <rect id="m39" x="72" y="128" width="12" height="12" fill="#f49119" />
+    <rect id="m40" x="88" y="128" width="12" height="12" fill="#f49119" />
+  </svg>
+  <svg>
+    <rect id="m41" x="112" y="112" width="12" height="12" fill="#f49119" />
+    <rect id="m42" x="128" y="112" width="12" height="12" fill="#f49119" />
+    <rect id="m43" x="144" y="112" width="12" height="12" fill="#f49119" />
+    <rect id="m44" x="160" y="112" width="12" height="12" fill="#f49119" />
+    <rect id="m45" x="176" y="112" width="12" height="12" fill="#f49119" />
+
+    <rect id="m46" x="112" y="128" width="12" height="12" fill="#f49119" />
+    <rect id="m47" x="128" y="128" width="12" height="12" fill="#f49119" />
+    <rect id="m48" x="144" y="128" width="12" height="12" fill="#f49119" />
+    <rect id="m49" x="160" y="128" width="12" height="12" fill="#f49119" />
+    <rect id="m50" x="176" y="128" width="12" height="12" fill="#f49119" />
+  </svg>
+  <svg>
+    <rect id="m51" x="200" y="112" width="12" height="12" fill="#f49119" />
+    <rect id="m52" x="216" y="112" width="12" height="12" fill="#f49119" />
+    <rect id="m53" x="232" y="112" width="12" height="12" fill="#f49119" />
+    <rect id="m54" x="248" y="112" width="12" height="12" fill="#f49119" />
+    <rect id="m55" x="264" y="112" width="12" height="12" fill="#f49119" />
+
+    <rect id="m56" x="200" y="128" width="12" height="12" fill="#f49119" />
+    <rect id="m57" x="216" y="128" width="12" height="12" fill="#f49119" />
+    <rect id="m58" x="232" y="128" width="12" height="12" fill="#f49119" />
+    <rect id="m59" x="248" y="128" width="12" height="12" fill="#f49119" />
+  </svg>
+
+  <!-- seconds -->
+  <svg>
+    <rect id="s1" x="24" y="160" width="12" height="12" fill="#f4d03f" />
+    <rect id="s2" x="40" y="160" width="12" height="12" fill="#f4d03f" />
+    <rect id="s3" x="56" y="160" width="12" height="12" fill="#f4d03f" />
+    <rect id="s4" x="72" y="160" width="12" height="12" fill="#f4d03f" />
+    <rect id="s5" x="88" y="160" width="12" height="12" fill="#f4d03f" />
+
+    <rect id="s6" x="24" y="176" width="12" height="12" fill="#f4d03f" />
+    <rect id="s7" x="40" y="176" width="12" height="12" fill="#f4d03f" />
+    <rect id="s8" x="56" y="176" width="12" height="12" fill="#f4d03f" />
+    <rect id="s9" x="72" y="176" width="12" height="12" fill="#f4d03f" />
+    <rect id="s10" x="88" y="176" width="12" height="12" fill="#f4d03f" />
+  </svg>
+  <svg>
+    <rect id="s11" x="112" y="160" width="12" height="12" fill="#f4d03f" />
+    <rect id="s12" x="128" y="160" width="12" height="12" fill="#f4d03f" />
+    <rect id="s13" x="144" y="160" width="12" height="12" fill="#f4d03f" />
+    <rect id="s14" x="160" y="160" width="12" height="12" fill="#f4d03f" />
+    <rect id="s15" x="176" y="160" width="12" height="12" fill="#f4d03f" />
+
+    <rect id="s16" x="112" y="176" width="12" height="12" fill="#f4d03f" />
+    <rect id="s17" x="128" y="176" width="12" height="12" fill="#f4d03f" />
+    <rect id="s18" x="144" y="176" width="12" height="12" fill="#f4d03f" />
+    <rect id="s19" x="160" y="176" width="12" height="12" fill="#f4d03f" />
+    <rect id="s20" x="176" y="176" width="12" height="12" fill="#f4d03f" />
+  </svg>
+  <svg>
+    <rect id="s21" x="200" y="160" width="12" height="12" fill="#f4d03f" />
+    <rect id="s22" x="216" y="160" width="12" height="12" fill="#f4d03f" />
+    <rect id="s23" x="232" y="160" width="12" height="12" fill="#f4d03f" />
+    <rect id="s24" x="248" y="160" width="12" height="12" fill="#f4d03f" />
+    <rect id="s25" x="264" y="160" width="12" height="12" fill="#f4d03f" />
+
+    <rect id="s26" x="200" y="176" width="12" height="12" fill="#f4d03f" />
+    <rect id="s27" x="216" y="176" width="12" height="12" fill="#f4d03f" />
+    <rect id="s28" x="232" y="176" width="12" height="12" fill="#f4d03f" />
+    <rect id="s29" x="248" y="176" width="12" height="12" fill="#f4d03f" />
+    <rect id="s30" x="264" y="176" width="12" height="12" fill="#f4d03f" />
+  </svg>
+  <svg>
+    <rect id="s31" x="24" y="200" width="12" height="12" fill="#f4d03f" />
+    <rect id="s32" x="40" y="200" width="12" height="12" fill="#f4d03f" />
+    <rect id="s33" x="56" y="200" width="12" height="12" fill="#f4d03f" />
+    <rect id="s34" x="72" y="200" width="12" height="12" fill="#f4d03f" />
+    <rect id="s35" x="88" y="200" width="12" height="12" fill="#f4d03f" />
+
+    <rect id="s36" x="24" y="216" width="12" height="12" fill="#f4d03f" />
+    <rect id="s37" x="40" y="216" width="12" height="12" fill="#f4d03f" />
+    <rect id="s38" x="56" y="216" width="12" height="12" fill="#f4d03f" />
+    <rect id="s39" x="72" y="216" width="12" height="12" fill="#f4d03f" />
+    <rect id="s40" x="88" y="216" width="12" height="12" fill="#f4d03f" />
+  </svg>
+  <svg>
+    <rect id="s41" x="112" y="200" width="12" height="12" fill="#f4d03f" />
+    <rect id="s42" x="128" y="200" width="12" height="12" fill="#f4d03f" />
+    <rect id="s43" x="144" y="200" width="12" height="12" fill="#f4d03f" />
+    <rect id="s44" x="160" y="200" width="12" height="12" fill="#f4d03f" />
+    <rect id="s45" x="176" y="200" width="12" height="12" fill="#f4d03f" />
+
+    <rect id="s46" x="112" y="216" width="12" height="12" fill="#f4d03f" />
+    <rect id="s47" x="128" y="216" width="12" height="12" fill="#f4d03f" />
+    <rect id="s48" x="144" y="216" width="12" height="12" fill="#f4d03f" />
+    <rect id="s49" x="160" y="216" width="12" height="12" fill="#f4d03f" />
+    <rect id="s50" x="176" y="216" width="12" height="12" fill="#f4d03f" />
+  </svg>
+  <svg>
+    <rect id="s51" x="200" y="200" width="12" height="12" fill="#f4d03f" />
+    <rect id="s52" x="216" y="200" width="12" height="12" fill="#f4d03f" />
+    <rect id="s53" x="232" y="200" width="12" height="12" fill="#f4d03f" />
+    <rect id="s54" x="248" y="200" width="12" height="12" fill="#f4d03f" />
+    <rect id="s55" x="264" y="200" width="12" height="12" fill="#f4d03f" />
+
+    <rect id="s56" x="200" y="216" width="12" height="12" fill="#f4d03f" />
+    <rect id="s57" x="216" y="216" width="12" height="12" fill="#f4d03f" />
+    <rect id="s58" x="232" y="216" width="12" height="12" fill="#f4d03f" />
+    <rect id="s59" x="248" y="216" width="12" height="12" fill="#f4d03f" />
+  </svg>
+
+  <!-- steps -->
+  <svg>
+    <rect id="s1k" x="24" y="250" width="12" height="12" fill="green" />
+    <rect id="s2k" x="40" y="250" width="12" height="12" fill="green" />
+    <rect id="s3k" x="56" y="250" width="12" height="12" fill="green" />
+    <rect id="s4k" x="72" y="250" width="12" height="12" fill="green" />
+    <rect id="s5k" x="88" y="250" width="12" height="12" fill="green" />
+
+    <rect id="s6k" x="24" y="266" width="12" height="12" fill="green" />
+    <rect id="s7k" x="40" y="266" width="12" height="12" fill="green" />
+    <rect id="s8k" x="56" y="266" width="12" height="12" fill="green" />
+    <rect id="s9k" x="72" y="266" width="12" height="12" fill="green" />
+    <rect id="s10k" x="88" y="266" width="12" height="12" fill="green" />
+  </svg>
+  <svg>
+    <rect id="s11k" x="112" y="250" width="12" height="12" fill="blue" />
+    <rect id="s12k" x="128" y="250" width="12" height="12" fill="blue" />
+    <rect id="s13k" x="144" y="250" width="12" height="12" fill="blue" />
+    <rect id="s14k" x="160" y="250" width="12" height="12" fill="blue" />
+    <rect id="s15k" x="176" y="250" width="12" height="12" fill="blue" />
+
+    <rect id="s16k" x="112" y="266" width="12" height="12" fill="blue" />
+    <rect id="s17k" x="128" y="266" width="12" height="12" fill="blue" />
+    <rect id="s18k" x="144" y="266" width="12" height="12" fill="blue" />
+    <rect id="s19k" x="160" y="266" width="12" height="12" fill="blue" />
+    <rect id="s20k" x="176" y="266" width="12" height="12" fill="blue" />
+  </svg>
+  <svg>
+    <rect id="s21k" x="200" y="250" width="12" height="12" fill="indigo" />
+    <rect id="s22k" x="216" y="250" width="12" height="12" fill="indigo" />
+    <rect id="s23k" x="232" y="250" width="12" height="12" fill="indigo" />
+    <rect id="s24k" x="248" y="250" width="12" height="12" fill="indigo" />
+    <rect id="s25k" x="264" y="250" width="12" height="12" fill="indigo" />
+
+    <rect id="s26k" x="200" y="266" width="12" height="12" fill="indigo" />
+    <rect id="s27k" x="216" y="266" width="12" height="12" fill="indigo" />
+    <rect id="s28k" x="232" y="266" width="12" height="12" fill="indigo" />
+    <rect id="s29k" x="248" y="266" width="12" height="12" fill="indigo" />
+    <rect id="s30k" x="264" y="266" width="12" height="12" fill="indigo" />
+  </svg>
 </svg>
