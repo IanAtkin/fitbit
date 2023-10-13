@@ -6,9 +6,10 @@
       gradient-type="linear"
       gradient-x1="0" gradient-y1="50"
       gradient-x2="50" gradient-y2="25%+50"
-      gradient-color1="cyan" gradient-color2="#aef9f9" />
+      gradient-color1="#ffffff" gradient-color2="#cefefe" />
   </svg>
 
+  <!-- main digits -->
   <svg>
     <defs>
       <symbol id="top">
@@ -200,126 +201,458 @@
     </defs>
   </svg>
 
-  <use id="d1_0" href="#top" x="23" y="97" fill="#2f3338" />
-  <use id="d1_1" href="#topleft" x="19" y="101" fill="#2f3338" />
-  <use id="d1_2" href="#topright" x="47" y="98" fill="#2f3338" />
-  <use id="d1_3" href="#middle" x="25" y="125" fill="#2f3338" />
-  <use id="d1_4" href="#bottomleft" x="19" y="132" fill="#2f3338" />
-  <use id="d1_5" href="#bottomright" x="47" y="132" fill="#2f3338" />
-  <use id="d1_6" href="#bottom" x="20" y="154" fill="#2f3338" />
+ <g transform="scale(.99)">
+  <use id="d1_0" href="#top" x="22" y="114" fill="#2f3338" />
+  <use id="d1_1" href="#topleft" x="18" y="118" fill="#2f3338" />
+  <use id="d1_2" href="#topright" x="46" y="115" fill="#2f3338" />
+  <use id="d1_3" href="#middle" x="22" y="142" fill="#2f3338" />
+  <use id="d1_4" href="#bottomleft" x="18" y="149" fill="#2f3338" />
+  <use id="d1_5" href="#bottomright" x="46" y="149" fill="#2f3338" />
+  <use id="d1_6" href="#bottom" x="19" y="171" fill="#2f3338" />
+</g>
 
-  <use id="d2_0" href="#top" x="70" y="97" fill="#2f3338" />
-  <use id="d2_1" href="#topleft" x="66" y="101" fill="#2f3338" />
-  <use id="d2_2" href="#topright" x="94" y="98" fill="#2f3338" />
-  <use id="d2_3" href="#middle" x="69" y="125" fill="#2f3338" />
-  <use id="d2_4" href="#bottomleft" x="66" y="132" fill="#2f3338" />
-  <use id="d2_5" href="#bottomright" x="94" y="132" fill="#2f3338" />
-  <use id="d2_6" href="#bottom" x="67" y="154" fill="#2f3338" />
+ <g transform="scale(.99)">
+  <use id="d2_0" href="#top" x="69" y="114" fill="#2f3338" />
+  <use id="d2_1" href="#topleft" x="65" y="118" fill="#2f3338" />
+  <use id="d2_2" href="#topright" x="93" y="115" fill="#2f3338" />
+  <use id="d2_3" href="#middle" x="69" y="142" fill="#2f3338" />
+  <use id="d2_4" href="#bottomleft" x="65" y="149" fill="#2f3338" />
+  <use id="d2_5" href="#bottomright" x="93" y="149" fill="#2f3338" />
+  <use id="d2_6" href="#bottom" x="67" y="171" fill="#2f3338" />
+</g>
 
-  <use id="d3_0" href="#top" x="136" y="97" fill="#2f3338" />
-  <use id="d3_1" href="#topleft" x="132" y="101" fill="#2f3338" />
-  <use id="d3_2" href="#topright" x="160" y="98" fill="#2f3338" />
-  <use id="d3_3" href="#middle" x="136" y="125" fill="#2f3338" />
-  <use id="d3_4" href="#bottomleft" x="131" y="132" fill="#2f3338" />
-  <use id="d3_5" href="#bottomright" x="160" y="132" fill="#2f3338" />
-  <use id="d3_6" href="#bottom" x="133" y="154" fill="#2f3338" />
+ <g transform="scale(.99)">
+  <use id="d3_0" href="#top" x="135" y="114" fill="#2f3338" />
+  <use id="d3_1" href="#topleft" x="131" y="118" fill="#2f3338" />
+  <use id="d3_2" href="#topright" x="159" y="115" fill="#2f3338" />
+  <use id="d3_3" href="#middle" x="135" y="142" fill="#2f3338" />
+  <use id="d3_4" href="#bottomleft" x="130" y="149" fill="#2f3338" />
+  <use id="d3_5" href="#bottomright" x="159" y="149" fill="#2f3338" />
+  <use id="d3_6" href="#bottom" x="132" y="171" fill="#2f3338" />
+</g>
 
-  <use id="d4_0" href="#top" x="183" y="97" fill="#2f3338" />
-  <use id="d4_1" href="#topleft" x="179" y="101" fill="#2f3338" />
-  <use id="d4_2" href="#topright" x="207" y="98" fill="#2f3338" />
-  <use id="d4_3" href="#middle" x="183" y="125" fill="#2f3338" />
-  <use id="d4_4" href="#bottomleft" x="179" y="132" fill="#2f3338" />
-  <use id="d4_5" href="#bottomright" x="207" y="132" fill="#2f3338" />
-  <use id="d4_6" href="#bottom" x="180" y="154" fill="#2f3338" />
+ <g transform="scale(.99)">
+  <use id="d4_0" href="#top" x="182" y="114" fill="#2f3338" />
+  <use id="d4_1" href="#topleft" x="178" y="118" fill="#2f3338" />
+  <use id="d4_2" href="#topright" x="206" y="115" fill="#2f3338" />
+  <use id="d4_3" href="#middle" x="182" y="142" fill="#2f3338" />
+  <use id="d4_4" href="#bottomleft" x="178" y="149" fill="#2f3338" />
+  <use id="d4_5" href="#bottomright" x="206" y="149" fill="#2f3338" />
+  <use id="d4_6" href="#bottom" x="179" y="171" fill="#2f3338" />
+</g>
 
   <g transform="scale(.7)">
-    <use id="d5_0" href="#top" x="330" y="167" fill="#2f3338" />
-    <use id="d5_1" href="#topleft" x="327" y="171" fill="#2f3338" />
-    <use id="d5_2" href="#topright" x="353" y="168" fill="#2f3338" />
-    <use id="d5_3" href="#middle" x="330" y="195" fill="#2f3338" />
-    <use id="d5_4" href="#bottomleft" x="327" y="202" fill="#2f3338" />
-    <use id="d5_5" href="#bottomright" x="353" y="202" fill="#2f3338" />
-    <use id="d5_6" href="#bottom" x="327" y="224" fill="#2f3338" />
+    <use id="d5_0" href="#top" x="329" y="188" fill="#2f3338" />
+    <use id="d5_1" href="#topleft" x="326" y="192" fill="#2f3338" />
+    <use id="d5_2" href="#topright" x="352" y="189" fill="#2f3338" />
+    <use id="d5_3" href="#middle" x="329" y="216" fill="#2f3338" />
+    <use id="d5_4" href="#bottomleft" x="326" y="223" fill="#2f3338" />
+    <use id="d5_5" href="#bottomright" x="352" y="223" fill="#2f3338" />
+    <use id="d5_6" href="#bottom" x="326" y="245" fill="#2f3338" />
   </g>
 
   <g transform="scale(.7)">
-    <use id="d6_0" href="#top" x="372" y="167" fill="#2f3338" />
-    <use id="d6_1" href="#topleft" x="369" y="171" fill="#2f3338" />
-    <use id="d6_2" href="#topright" x="395" y="168" fill="#2f3338" />
-    <use id="d6_3" href="#middle" x="372" y="195" fill="#2f3338" />
-    <use id="d6_4" href="#bottomleft" x="369" y="202" fill="#2f3338" />
-    <use id="d6_5" href="#bottomright" x="395" y="202" fill="#2f3338" />
-    <use id="d6_6" href="#bottom" x="369" y="224" fill="#2f3338" />
+    <use id="d6_0" href="#top" x="372" y="188" fill="#2f3338" />
+    <use id="d6_1" href="#topleft" x="369" y="192" fill="#2f3338" />
+    <use id="d6_2" href="#topright" x="395" y="189" fill="#2f3338" />
+    <use id="d6_3" href="#middle" x="372" y="216" fill="#2f3338" />
+    <use id="d6_4" href="#bottomleft" x="369" y="223" fill="#2f3338" />
+    <use id="d6_5" href="#bottomright" x="395" y="223" fill="#2f3338" />
+    <use id="d6_6" href="#bottom" x="369" y="245" fill="#2f3338" />
   </g>
 
   <svg>
-    <circle cx="118" cy="115" r="5" fill="#2f3338" />
-    <circle cx="118" cy="145" r="5" fill="#2f3338" />
+    <circle cx="116" cy="130" r="5" fill="#2f3338" />
+    <circle cx="116" cy="160" r="5" fill="#2f3338" />
   </svg>
+
+  <!-- skinny digits -->
+  <svg>
+    <defs>
+      <symbol id="skinny_top">
+        <line x1="0" x2="24" y1="0" y2="0" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="24" y1="1" y2="1" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="24" y1="2" y2="2" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="24" y1="3" y2="3" fill="inherit" stroke-width="1" />
+        <line x1="1" x2="23" y1="4" y2="4" fill="inherit" stroke-width="1" />
+      </symbol>
+    </defs>
+  </svg>
+
+  <svg>
+    <defs>
+      <symbol id="skinny_topleft">
+        <line x1="4" x2="4" y1="0" y2="0" fill="inherit" stroke-width="1" />
+        <line x1="3" x2="4" y1="1" y2="1" fill="inherit" stroke-width="1" />
+        <line x1="2" x2="4" y1="2" y2="2" fill="inherit" stroke-width="1" />
+        <line x1="1" x2="4" y1="3" y2="3" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="4" y2="4" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="5" y2="5" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="6" y2="6" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="7" y2="7" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="8" y2="8" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="9" y2="9" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="10" y2="10" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="11" y2="11" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="12" y2="12" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="13" y2="13" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="14" y2="14" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="15" y2="15" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="16" y2="16" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="17" y2="17" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="18" y2="18" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="19" y2="19" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="20" y2="20" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="21" y2="21" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="22" y2="22" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="23" y2="23" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="24" y2="24" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="25" y2="25" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="26" y2="26" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="27" y2="27" fill="inherit" stroke-width="1" />
+        <line x1="1" x2="4" y1="28" y2="27" fill="inherit" stroke-width="1" />
+        <line x1="2" x2="3" y1="29" y2="28" fill="inherit" stroke-width="1" />
+      </symbol>
+    </defs>
+  </svg>
+
+  <svg>
+    <defs>
+      <symbol id="skinny_topright">
+        <line x1="0" x2="0" y1="0" y2="0" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="1" y1="1" y2="1" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="2" y1="2" y2="2" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="3" y1="3" y2="3" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="4" y2="4" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="5" y2="5" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="6" y2="6" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="7" y2="7" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="8" y2="8" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="9" y2="9" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="10" y2="10" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="11" y2="11" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="12" y2="12" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="13" y2="13" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="14" y2="14" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="15" y2="15" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="16" y2="16" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="17" y2="17" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="18" y2="18" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="19" y2="19" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="20" y2="20" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="21" y2="21" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="22" y2="22" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="23" y2="23" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="24" y2="24" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="25" y2="25" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="26" y2="26" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="27" y2="27" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="3" y1="28" y2="27" fill="inherit" stroke-width="1" />
+        <line x1="1" x2="2" y1="29" y2="28" fill="inherit" stroke-width="1" />
+      </symbol>
+    </defs>
+  </svg>
+
+  <svg>
+    <defs>
+      <symbol id="skinny_middle">
+        <line x1="2" x2="26" y1="0" y2="0" fill="inherit" stroke-width="1" />
+        <line x1="1" x2="27" y1="1" y2="1" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="28" y1="2" y2="2" fill="inherit" stroke-width="1" />
+        <line x1="1" x2="27" y1="3" y2="3" fill="inherit" stroke-width="1" />
+        <line x1="2" x2="26" y1="4" y2="4" fill="inherit" stroke-width="1" />
+      </symbol>
+    </defs>
+  </svg>
+
+  <svg>
+    <defs>
+      <symbol id="skinny_bottomleft">
+        <line x1="2" x2="3" y1="0" y2="0" fill="inherit" stroke-width="1" />
+        <line x1="1" x2="4" y1="1" y2="1" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="2" y2="2" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="3" y2="3" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="4" y2="4" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="5" y2="5" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="6" y2="6" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="7" y2="7" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="8" y2="8" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="9" y2="9" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="10" y2="10" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="11" y2="11" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="12" y2="12" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="13" y2="13" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="14" y2="14" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="15" y2="15" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="16" y2="16" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="17" y2="17" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="18" y2="18" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="19" y2="19" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="20" y2="20" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="21" y2="21" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="22" y2="22" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="23" y2="23" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="24" y2="24" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="25" y2="25" fill="inherit" stroke-width="1" />
+        <line x1="1" x2="4" y1="26" y2="26" fill="inherit" stroke-width="1" />
+        <line x1="2" x2="4" y1="27" y2="27" fill="inherit" stroke-width="1" />
+        <line x1="3" x2="4" y1="28" y2="28" fill="inherit" stroke-width="1" />
+        <line x1="4" x2="4" y1="29" y2="29" fill="inherit" stroke-width="1" />
+      </symbol>
+    </defs>
+  </svg>
+
+  <svg>
+    <defs>
+      <symbol id="skinny_bottomright">
+        <line x1="1" x2="2" y1="0" y2="0" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="3" y1="1" y2="1" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="2" y2="2" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="3" y2="3" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="4" y2="4" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="5" y2="5" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="6" y2="6" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="7" y2="7" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="8" y2="8" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="9" y2="9" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="10" y2="10" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="11" y2="11" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="12" y2="12" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="13" y2="13" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="14" y2="14" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="15" y2="15" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="16" y2="16" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="17" y2="17" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="18" y2="18" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="19" y2="19" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="20" y2="20" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="21" y2="21" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="22" y2="22" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="23" y2="23" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="24" y2="24" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="25" y2="25" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="3" y1="26" y2="26" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="2" y1="27" y2="27" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="1" y1="28" y2="28" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="0" y1="29" y2="29" fill="inherit" stroke-width="1" />
+      </symbol>
+    </defs>
+  </svg>
+
+  <svg>
+    <defs>
+      <symbol id="skinny_bottom">
+        <line x1="1" x2="23" y1="0" y2="0" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="24" y1="1" y2="1" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="24" y1="2" y2="2" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="24" y1="3" y2="3" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="24" y1="4" y2="4" fill="inherit" stroke-width="1" />
+      </symbol>
+    </defs>
+  </svg>
+
+  <svg>
+    <defs>
+      <symbol id="skinny_topvertical">
+        <line x1="0" x2="4" y1="0" y2="0" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="1" y2="1" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="2" y2="2" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="3" y2="3" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="4" y2="4" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="5" y2="5" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="6" y2="6" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="7" y2="7" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="8" y2="8" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="9" y2="9" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="10" y2="10" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="11" y2="11" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="12" y2="12" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="13" y2="13" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="14" y2="14" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="15" y2="15" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="16" y2="16" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="17" y2="17" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="18" y2="18" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="19" y2="19" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="20" y2="20" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="21" y2="21" fill="inherit" stroke-width="1" />
+        <line x1="1" x2="3" y1="22" y2="22" fill="inherit" stroke-width="1" />
+      </symbol>
+    </defs>
+  </svg>
+
+  <svg>
+    <defs>
+      <symbol id="skinny_bottomvertical">
+        <line x1="1" x2="3" y1="0" y2="0" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="1" y2="1" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="2" y2="2" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="3" y2="3" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="4" y2="4" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="5" y2="5" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="6" y2="6" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="7" y2="7" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="8" y2="8" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="9" y2="9" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="10" y2="10" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="11" y2="11" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="12" y2="12" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="13" y2="13" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="14" y2="14" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="15" y2="15" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="16" y2="16" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="17" y2="17" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="18" y2="18" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="19" y2="19" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="20" y2="20" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="21" y2="21" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="22" y2="22" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="23" y2="23" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="4" y1="24" y2="24" fill="inherit" stroke-width="1" />
+      </symbol>
+    </defs>
+  </svg>
+
+  <svg>
+    <defs>
+      <symbol id="skinny_altmiddle">
+        <line x1="2" x2="11" y1="0" y2="0" fill="inherit" stroke-width="1" />
+        <line x1="17" x2="26" y1="0" y2="0" fill="inherit" stroke-width="1" />
+        <line x1="1" x2="27" y1="1" y2="1" fill="inherit" stroke-width="1" />
+        <line x1="0" x2="28" y1="2" y2="2" fill="inherit" stroke-width="1" />
+        <line x1="1" x2="27" y1="3" y2="3" fill="inherit" stroke-width="1" />
+        <line x1="2" x2="11" y1="4" y2="4" fill="inherit" stroke-width="1" />
+        <line x1="17" x2="26" y1="4" y2="4" fill="inherit" stroke-width="1" />
+      </symbol>
+    </defs>
+  </svg>
+
+  <svg>
+    <defs>
+      <symbol id="skinny_wing">
+        <line x1="0" x2="10" y1="0" y2="0" fill="inherit" stroke-width="1" />
+        <line x1="1" x2="9" y1="1" y2="1" fill="inherit" stroke-width="1" />
+        <line x1="2" x2="8" y1="2" y2="2" fill="inherit" stroke-width="1" />
+        <line x1="3" x2="7" y1="3" y2="3" fill="inherit" stroke-width="1" />
+        <line x1="4" x2="7" y1="4" y2="4" fill="inherit" stroke-width="1" />
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- steps date -->
+  <g transform="scale(.4)">
+    <use id="day1_0" href="#skinny_top" x="474" y="145" fill="#2f3338" />
+    <use id="day1_1" href="#skinny_topleft" x="468" y="146" fill="#2f3338" />
+    <use id="day1_2" href="#skinny_topright" x="500" y="146" fill="#2f3338" />
+    <use id="day1_3" href="#skinny_middle" x="472" y="175" fill="#2f3338" />
+    <use id="day1_4" href="#skinny_bottomleft" x="468" y="180" fill="#2f3338" />
+    <use id="day1_5" href="#skinny_bottomright" x="500" y="180" fill="#2f3338" />
+    <use id="day1_6" href="#skinny_bottom" x="474" y="205" fill="#2f3338" />
+    <use id="day1_7" href="#skinny_topvertical" x="484" y="151" fill="#2f3338" />
+    <use id="day1_8" href="#skinny_bottomvertical" x="484" y="181" fill="#2f3338" />
+    <use id="day1_9" href="#skinny_altmiddle" x="472" y="175" fill="#2f3338" />
+    <use id="day1_10" href="#skinny_wing" x="459" y="145" fill="#2f3338" />
+  </g>
+
+  <g transform="scale(.4)">
+    <use id="day2_0" href="#skinny_top" x="523" y="145" fill="#2f3338" />
+    <use id="day2_1" href="#skinny_topleft" x="517" y="146" fill="#2f3338" />
+    <use id="day2_2" href="#skinny_topright" x="549" y="146" fill="#2f3338" />
+    <use id="day2_3" href="#skinny_middle" x="521" y="175" fill="#2f3338" />
+    <use id="day2_4" href="#skinny_bottomleft" x="517" y="180" fill="#2f3338" />
+    <use id="day2_5" href="#skinny_bottomright" x="549" y="180" fill="#2f3338" />
+    <use id="day2_6" href="#skinny_bottom" x="523" y="205" fill="#2f3338" />
+    <use id="day2_7" href="#skinny_topvertical" x="533" y="151" fill="#2f3338" />
+    <use id="day2_8" href="#skinny_bottomvertical" x="533" y="181" fill="#2f3338" />
+    <use id="day2_9" href="#skinny_altmiddle" x="521" y="175" fill="#2f3338" />
+    <use id="day2_10" href="#skinny_wing" x="508" y="145" fill="#2f3338" />
+  </g>
+
+  <g transform="scale(.4)">
+    <use id="date1_0" href="#skinny_top" x="601" y="145" fill="#2f3338" />
+    <use id="date1_1" href="#skinny_topleft" x="595" y="146" fill="#2f3338" />
+    <use id="date1_2" href="#skinny_topright" x="627" y="146" fill="#2f3338" />
+    <use id="date1_3" href="#skinny_middle" x="599" y="175" fill="#2f3338" />
+    <use id="date1_4" href="#skinny_bottomleft" x="595" y="180" fill="#2f3338" />
+    <use id="date1_5" href="#skinny_bottomright" x="627" y="180" fill="#2f3338" />
+    <use id="date1_6" href="#skinny_bottom" x="601" y="205" fill="#2f3338" />
+  </g>
+
+  <g transform="scale(.4)">
+    <use id="date2_0" href="#skinny_top" x="650" y="145" fill="#2f3338" />
+    <use id="date2_1" href="#skinny_topleft" x="644" y="146" fill="#2f3338" />
+    <use id="date2_2" href="#skinny_topright" x="676" y="146" fill="#2f3338" />
+    <use id="date2_3" href="#skinny_middle" x="648" y="175" fill="#2f3338" />
+    <use id="date2_4" href="#skinny_bottomleft" x="644" y="180" fill="#2f3338" />
+    <use id="date2_5" href="#skinny_bottomright" x="676" y="180" fill="#2f3338" />
+    <use id="date2_6" href="#skinny_bottom" x="650" y="205" fill="#2f3338" />
+  </g>
+
+  <!-- steps digits -->
+  <g transform="scale(.4)">
+    <use id="s1_0" href="#skinny_top" x="90" y="547" fill="#2f3338" />
+    <use id="s1_1" href="#skinny_topleft" x="84" y="548" fill="#2f3338" />
+    <use id="s1_2" href="#skinny_topright" x="116" y="548" fill="#2f3338" />
+    <use id="s1_3" href="#skinny_middle" x="88" y="577" fill="#2f3338" />
+    <use id="s1_4" href="#skinny_bottomleft" x="84" y="582" fill="#2f3338" />
+    <use id="s1_5" href="#skinny_bottomright" x="116" y="582" fill="#2f3338" />
+    <use id="s1_6" href="#skinny_bottom" x="90" y="607" fill="#2f3338" />
+  </g>
+
+  <g transform="scale(.4)">
+    <use id="s2_0" href="#skinny_top" x="139" y="547" fill="#2f3338" />
+    <use id="s2_1" href="#skinny_topleft" x="133" y="548" fill="#2f3338" />
+    <use id="s2_2" href="#skinny_topright" x="165" y="548" fill="#2f3338" />
+    <use id="s2_3" href="#skinny_middle" x="137" y="577" fill="#2f3338" />
+    <use id="s2_4" href="#skinny_bottomleft" x="133" y="582" fill="#2f3338" />
+    <use id="s2_5" href="#skinny_bottomright" x="165" y="582" fill="#2f3338" />
+    <use id="s2_6" href="#skinny_bottom" x="139" y="607" fill="#2f3338" />
+  </g>
+
+  <g transform="scale(.4)">
+    <use id="s3_0" href="#skinny_top" x="188" y="547" fill="#2f3338" />
+    <use id="s3_1" href="#skinny_topleft" x="181" y="548" fill="#2f3338" />
+    <use id="s3_2" href="#skinny_topright" x="213" y="548" fill="#2f3338" />
+    <use id="s3_3" href="#skinny_middle" x="186" y="577" fill="#2f3338" />
+    <use id="s3_4" href="#skinny_bottomleft" x="181" y="582" fill="#2f3338" />
+    <use id="s3_5" href="#skinny_bottomright" x="213" y="582" fill="#2f3338" />
+    <use id="s3_6" href="#skinny_bottom" x="188" y="607" fill="#2f3338" />
+  </g>
+
+  <g transform="scale(.4)">
+    <use id="s4_0" href="#skinny_top" x="237" y="547" fill="#2f3338" />
+    <use id="s4_1" href="#skinny_topleft" x="231" y="548" fill="#2f3338" />
+    <use id="s4_2" href="#skinny_topright" x="263" y="548" fill="#2f3338" />
+    <use id="s4_3" href="#skinny_middle" x="235" y="577" fill="#2f3338" />
+    <use id="s4_4" href="#skinny_bottomleft" x="231" y="582" fill="#2f3338" />
+    <use id="s4_5" href="#skinny_bottomright" x="263" y="582" fill="#2f3338" />
+    <use id="s4_6" href="#skinny_bottom" x="237" y="607" fill="#2f3338" />
+  </g>
+
+  <g transform="scale(.4)">
+    <use id="s5_0" href="#skinny_top" x="286" y="547" fill="#2f3338" />
+    <use id="s5_1" href="#skinny_topleft" x="280" y="548" fill="#2f3338" />
+    <use id="s5_2" href="#skinny_topright" x="312" y="548" fill="#2f3338" />
+    <use id="s5_3" href="#skinny_middle" x="282" y="577" fill="#2f3338" />
+    <use id="s5_4" href="#skinny_bottomleft" x="280" y="582" fill="#2f3338" />
+    <use id="s5_5" href="#skinny_bottomright" x="312" y="582" fill="#2f3338" />
+    <use id="s5_6" href="#skinny_bottom" x="286" y="607" fill="#2f3338" />
+  </g>
+
+  <g transform="scale(.4)">
+    <use id="s6_0" href="#skinny_top" x="335" y="547" fill="#2f3338" />
+    <use id="s6_1" href="#skinny_topleft" x="329" y="548" fill="#2f3338" />
+    <use id="s6_2" href="#skinny_topright" x="361" y="548" fill="#2f3338" />
+    <use id="s6_3" href="#skinny_middle" x="333" y="577" fill="#2f3338" />
+    <use id="s6_4" href="#skinny_bottomleft" x="329" y="582" fill="#2f3338" />
+    <use id="s6_5" href="#skinny_bottomright" x="361" y="582" fill="#2f3338" />
+    <use id="s6_6" href="#skinny_bottom" x="335" y="607" fill="#2f3338" />
+  </g>
 
   <text id="type12">PM</text>
   <text id="type24">24H</text>
-
-  <g transform="scale(.4)">
-    <use id="s1_0" href="#top" x="90" y="527" fill="#2f3338" />
-    <use id="s1_1" href="#topleft" x="87" y="531" fill="#2f3338" />
-    <use id="s1_2" href="#topright" x="113" y="528" fill="#2f3338" />
-    <use id="s1_3" href="#middle" x="90" y="555" fill="#2f3338" />
-    <use id="s1_4" href="#bottomleft" x="87" y="562" fill="#2f3338" />
-    <use id="s1_5" href="#bottomright" x="113" y="562" fill="#2f3338" />
-    <use id="s1_6" href="#bottom" x="87" y="584" fill="#2f3338" />
-  </g>
-
-  <g transform="scale(.4)">
-    <use id="s2_0" href="#top" x="135" y="527" fill="#2f3338" />
-    <use id="s2_1" href="#topleft" x="132" y="531" fill="#2f3338" />
-    <use id="s2_2" href="#topright" x="158" y="528" fill="#2f3338" />
-    <use id="s2_3" href="#middle" x="135" y="555" fill="#2f3338" />
-    <use id="s2_4" href="#bottomleft" x="132" y="562" fill="#2f3338" />
-    <use id="s2_5" href="#bottomright" x="158" y="562" fill="#2f3338" />
-    <use id="s2_6" href="#bottom" x="132" y="584" fill="#2f3338" />
-  </g>
-
-  <g transform="scale(.4)">
-    <use id="s3_0" href="#top" x="180" y="527" fill="#2f3338" />
-    <use id="s3_1" href="#topleft" x="177" y="531" fill="#2f3338" />
-    <use id="s3_2" href="#topright" x="203" y="528" fill="#2f3338" />
-    <use id="s3_3" href="#middle" x="180" y="555" fill="#2f3338" />
-    <use id="s3_4" href="#bottomleft" x="177" y="562" fill="#2f3338" />
-    <use id="s3_5" href="#bottomright" x="203" y="562" fill="#2f3338" />
-    <use id="s3_6" href="#bottom" x="177" y="584" fill="#2f3338" />
-  </g>
-
-  <g transform="scale(.4)">
-    <use id="s4_0" href="#top" x="225" y="527" fill="#2f3338" />
-    <use id="s4_1" href="#topleft" x="222" y="531" fill="#2f3338" />
-    <use id="s4_2" href="#topright" x="248" y="528" fill="#2f3338" />
-    <use id="s4_3" href="#middle" x="225" y="555" fill="#2f3338" />
-    <use id="s4_4" href="#bottomleft" x="222" y="562" fill="#2f3338" />
-    <use id="s4_5" href="#bottomright" x="248" y="562" fill="#2f3338" />
-    <use id="s4_6" href="#bottom" x="222" y="584" fill="#2f3338" />
-  </g>
-
-  <g transform="scale(.4)">
-    <use id="s5_0" href="#top" x="270" y="527" fill="#2f3338" />
-    <use id="s5_1" href="#topleft" x="267" y="531" fill="#2f3338" />
-    <use id="s5_2" href="#topright" x="293" y="528" fill="#2f3338" />
-    <use id="s5_3" href="#middle" x="270" y="555" fill="#2f3338" />
-    <use id="s5_4" href="#bottomleft" x="267" y="562" fill="#2f3338" />
-    <use id="s5_5" href="#bottomright" x="293" y="562" fill="#2f3338" />
-    <use id="s5_6" href="#bottom" x="267" y="584" fill="#2f3338" />
-  </g>
-
-  <g transform="scale(.4)">
-    <use id="s6_0" href="#top" x="314" y="527" fill="#2f3338" />
-    <use id="s6_1" href="#topleft" x="312" y="531" fill="#2f3338" />
-    <use id="s6_2" href="#topright" x="338" y="528" fill="#2f3338" />
-    <use id="s6_3" href="#middle" x="315" y="555" fill="#2f3338" />
-    <use id="s6_4" href="#bottomleft" x="312" y="562" fill="#2f3338" />
-    <use id="s6_5" href="#bottomright" x="338" y="562" fill="#2f3338" />
-    <use id="s6_6" href="#bottom" x="312" y="584" fill="#2f3338" />
-  </g>
-
   <text id="steps">STEPS</text>
+
+  <image id="image" href="images/overlay.png" />
 
 </svg>

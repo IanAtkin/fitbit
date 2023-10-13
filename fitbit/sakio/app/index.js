@@ -18,6 +18,12 @@ const st4 = [];
 const st5 = [];
 const st6 = [];
 
+const day1 = [];
+const day2 = [];
+
+const date1 = [];
+const date2 = [];
+
 for (let i = 0; i < 7; i++) {
   d1[i] = document.getElementById(`d1_${i}`);
   d2[i] = document.getElementById(`d2_${i}`);
@@ -32,6 +38,14 @@ for (let i = 0; i < 7; i++) {
   st4[i] = document.getElementById(`s4_${i}`);
   st5[i] = document.getElementById(`s5_${i}`);
   st6[i] = document.getElementById(`s6_${i}`);
+
+  date1[i] = document.getElementById(`date1_${i}`);
+  date2[i] = document.getElementById(`date2_${i}`);
+}
+
+for (let i = 0; i < 11; i++) {
+  day1[i] = document.getElementById(`day1_${i}`);
+  day2[i] = document.getElementById(`day2_${i}`);
 }
 
 const background = document.getElementById("background");
@@ -41,37 +55,29 @@ const type12 = document.getElementById("type12");
 const type24 = document.getElementById("type24");
 
 const numbers = [
-  [1, 1, 1, 0, 1, 1, 1],
-  [0, 0, 1, 0, 0, 1, 0],
-  [1, 0, 1, 1, 1, 0, 1],
-  [1, 0, 1, 1, 0, 1, 1],
-  [0, 1, 1, 1, 0, 1, 0],
-  [1, 1, 0, 1, 0, 1, 1],
-  [1, 1, 0, 1, 1, 1, 1],
-  [1, 0, 1, 0, 0 ,1, 0],
-  [1, 1, 1, 1, 1, 1, 1],
-  [1, 1, 1, 1, 0, 1, 0]
+  [1, 1, 1, 0, 1, 1, 1], // 0
+  [0, 0, 1, 0, 0, 1, 0], // 1
+  [1, 0, 1, 1, 1, 0, 1], // 2
+  [1, 0, 1, 1, 0, 1, 1], // 3
+  [0, 1, 1, 1, 0, 1, 0], // 4
+  [1, 1, 0, 1, 0, 1, 1], // 5
+  [1, 1, 0, 1, 1, 1, 1], // 6
+  [1, 0, 1, 0, 0 ,1, 0], // 7
+  [1, 1, 1, 1, 1, 1, 1], // 8
+  [1, 1, 1, 1, 0, 1, 0]  // 9
 ]
 
-// ?
-/*
-let n = 9
-for (let i = 0; i < 7; i++) {
-  d1[i].style.visibility = numbers[n][i] == 0 ? "hidden" : "visible";
-}
-*/
+// extra segments: top vertical, bottom vertical, alt middle, wing 
 
-// 3
-/*
-for (let i = 0; i < 7; i++) {
-  d1[i].style.visibility = three[i] == 0 ? "hidden" : "visible";
-}
-
-// 5
-for (let i = 0; i < 7; i++) {
-  d1[i].style.visibility = five[i] == 0 ? "hidden" : "visible";
-}
-*/
+const letters = [
+  [[1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0], [0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0]], // SU
+  [[1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0], [1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0]], // MO
+  [[1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0], [0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0]], // TU
+  [[0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0], [1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0]], // WE
+  [[1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0], [0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]], // TH
+  [[1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0], [1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1]], // FR
+  [[1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0], [1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]]  // SA
+]
 
 // Tick every second
 clock.granularity = "seconds";
@@ -83,6 +89,8 @@ function updateClock() {
   let minutes = today.getMinutes();
   let seconds = today.getSeconds();
   let steps = toDay.adjusted.steps;
+  let date = util.zeroPad(today.getDate());
+  let day = today.getDay();
 
   backlight.style.visibility = hours >= 18 || hours < 6 ? "visible" : "hidden";
 
@@ -130,6 +138,19 @@ function updateClock() {
     st4[i].style.visibility = numbers[steps4][i] == 0 ? "hidden" : "visible";
     st5[i].style.visibility = numbers[steps5][i] == 0 ? "hidden" : "visible";
     st6[i].style.visibility = numbers[steps6][i] == 0 ? "hidden" : "visible";
+  }
+
+  for (let i = 0; i < 11; i++) {
+    day1[i].style.visibility = letters[day][0][i] == 0 ? "hidden" : "visible";
+    day2[i].style.visibility = letters[day][1][i] == 0 ? "hidden" : "visible";
+  }
+
+  let dt = util.zeroPad(date);
+  let dt1 = dt.toString()[0];
+  let dt2 = dt.toString()[1];
+  for (let i = 0; i < 7; i++) {
+    date1[i].style.visibility = numbers[dt1][i] == 0 ? "hidden" : "visible";
+    date2[i].style.visibility = numbers[dt2][i] == 0 ? "hidden" : "visible";
   }
 }
 
