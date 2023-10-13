@@ -242,13 +242,13 @@
 </g>
 
   <g transform="scale(.7)">
-    <use id="d5_0" href="#top" x="329" y="188" fill="#2f3338" />
-    <use id="d5_1" href="#topleft" x="326" y="192" fill="#2f3338" />
-    <use id="d5_2" href="#topright" x="352" y="189" fill="#2f3338" />
-    <use id="d5_3" href="#middle" x="329" y="216" fill="#2f3338" />
-    <use id="d5_4" href="#bottomleft" x="326" y="223" fill="#2f3338" />
-    <use id="d5_5" href="#bottomright" x="352" y="223" fill="#2f3338" />
-    <use id="d5_6" href="#bottom" x="326" y="245" fill="#2f3338" />
+    <use id="d5_0" href="#top" x="327" y="188" fill="#2f3338" />
+    <use id="d5_1" href="#topleft" x="324" y="192" fill="#2f3338" />
+    <use id="d5_2" href="#topright" x="350" y="189" fill="#2f3338" />
+    <use id="d5_3" href="#middle" x="327" y="216" fill="#2f3338" />
+    <use id="d5_4" href="#bottomleft" x="324" y="223" fill="#2f3338" />
+    <use id="d5_5" href="#bottomright" x="350" y="223" fill="#2f3338" />
+    <use id="d5_6" href="#bottom" x="324" y="245" fill="#2f3338" />
   </g>
 
   <g transform="scale(.7)">
@@ -539,7 +539,7 @@
     </defs>
   </svg>
 
-  <!-- steps date -->
+  <!-- dqte digits -->
   <g transform="scale(.4)">
     <use id="day1_0" href="#skinny_top" x="474" y="145" fill="#2f3338" />
     <use id="day1_1" href="#skinny_topleft" x="468" y="146" fill="#2f3338" />
@@ -600,53 +600,53 @@
   </g>
 
   <g transform="scale(.4)">
-    <use id="s2_0" href="#skinny_top" x="139" y="547" fill="#2f3338" />
-    <use id="s2_1" href="#skinny_topleft" x="133" y="548" fill="#2f3338" />
-    <use id="s2_2" href="#skinny_topright" x="165" y="548" fill="#2f3338" />
-    <use id="s2_3" href="#skinny_middle" x="137" y="577" fill="#2f3338" />
-    <use id="s2_4" href="#skinny_bottomleft" x="133" y="582" fill="#2f3338" />
-    <use id="s2_5" href="#skinny_bottomright" x="165" y="582" fill="#2f3338" />
-    <use id="s2_6" href="#skinny_bottom" x="139" y="607" fill="#2f3338" />
+    <use id="s2_0" href="#skinny_top" x="141" y="547" fill="#2f3338" />
+    <use id="s2_1" href="#skinny_topleft" x="135" y="548" fill="#2f3338" />
+    <use id="s2_2" href="#skinny_topright" x="167" y="548" fill="#2f3338" />
+    <use id="s2_3" href="#skinny_middle" x="139" y="577" fill="#2f3338" />
+    <use id="s2_4" href="#skinny_bottomleft" x="135" y="582" fill="#2f3338" />
+    <use id="s2_5" href="#skinny_bottomright" x="167" y="582" fill="#2f3338" />
+    <use id="s2_6" href="#skinny_bottom" x="141" y="607" fill="#2f3338" />
   </g>
 
   <g transform="scale(.4)">
-    <use id="s3_0" href="#skinny_top" x="188" y="547" fill="#2f3338" />
-    <use id="s3_1" href="#skinny_topleft" x="181" y="548" fill="#2f3338" />
-    <use id="s3_2" href="#skinny_topright" x="213" y="548" fill="#2f3338" />
-    <use id="s3_3" href="#skinny_middle" x="186" y="577" fill="#2f3338" />
-    <use id="s3_4" href="#skinny_bottomleft" x="181" y="582" fill="#2f3338" />
-    <use id="s3_5" href="#skinny_bottomright" x="213" y="582" fill="#2f3338" />
-    <use id="s3_6" href="#skinny_bottom" x="188" y="607" fill="#2f3338" />
+    <use id="s3_0" href="#skinny_top" x="192" y="547" fill="#2f3338" />
+    <use id="s3_1" href="#skinny_topleft" x="185" y="548" fill="#2f3338" />
+    <use id="s3_2" href="#skinny_topright" x="217" y="548" fill="#2f3338" />
+    <use id="s3_3" href="#skinny_middle" x="190" y="577" fill="#2f3338" />
+    <use id="s3_4" href="#skinny_bottomleft" x="185" y="582" fill="#2f3338" />
+    <use id="s3_5" href="#skinny_bottomright" x="217" y="582" fill="#2f3338" />
+    <use id="s3_6" href="#skinny_bottom" x="192" y="607" fill="#2f3338" />
   </g>
 
   <g transform="scale(.4)">
-    <use id="s4_0" href="#skinny_top" x="237" y="547" fill="#2f3338" />
-    <use id="s4_1" href="#skinny_topleft" x="231" y="548" fill="#2f3338" />
-    <use id="s4_2" href="#skinny_topright" x="263" y="548" fill="#2f3338" />
-    <use id="s4_3" href="#skinny_middle" x="235" y="577" fill="#2f3338" />
-    <use id="s4_4" href="#skinny_bottomleft" x="231" y="582" fill="#2f3338" />
-    <use id="s4_5" href="#skinny_bottomright" x="263" y="582" fill="#2f3338" />
-    <use id="s4_6" href="#skinny_bottom" x="237" y="607" fill="#2f3338" />
+    <use id="s4_0" href="#skinny_top" x="243" y="547" fill="#2f3338" />
+    <use id="s4_1" href="#skinny_topleft" x="237" y="548" fill="#2f3338" />
+    <use id="s4_2" href="#skinny_topright" x="269" y="548" fill="#2f3338" />
+    <use id="s4_3" href="#skinny_middle" x="241" y="577" fill="#2f3338" />
+    <use id="s4_4" href="#skinny_bottomleft" x="237" y="582" fill="#2f3338" />
+    <use id="s4_5" href="#skinny_bottomright" x="269" y="582" fill="#2f3338" />
+    <use id="s4_6" href="#skinny_bottom" x="243" y="607" fill="#2f3338" />
   </g>
 
   <g transform="scale(.4)">
-    <use id="s5_0" href="#skinny_top" x="286" y="547" fill="#2f3338" />
-    <use id="s5_1" href="#skinny_topleft" x="280" y="548" fill="#2f3338" />
-    <use id="s5_2" href="#skinny_topright" x="312" y="548" fill="#2f3338" />
-    <use id="s5_3" href="#skinny_middle" x="282" y="577" fill="#2f3338" />
-    <use id="s5_4" href="#skinny_bottomleft" x="280" y="582" fill="#2f3338" />
-    <use id="s5_5" href="#skinny_bottomright" x="312" y="582" fill="#2f3338" />
-    <use id="s5_6" href="#skinny_bottom" x="286" y="607" fill="#2f3338" />
+    <use id="s5_0" href="#skinny_top" x="294" y="547" fill="#2f3338" />
+    <use id="s5_1" href="#skinny_topleft" x="288" y="548" fill="#2f3338" />
+    <use id="s5_2" href="#skinny_topright" x="320" y="548" fill="#2f3338" />
+    <use id="s5_3" href="#skinny_middle" x="290" y="577" fill="#2f3338" />
+    <use id="s5_4" href="#skinny_bottomleft" x="290" y="582" fill="#2f3338" />
+    <use id="s5_5" href="#skinny_bottomright" x="320" y="582" fill="#2f3338" />
+    <use id="s5_6" href="#skinny_bottom" x="292" y="607" fill="#2f3338" />
   </g>
 
   <g transform="scale(.4)">
-    <use id="s6_0" href="#skinny_top" x="335" y="547" fill="#2f3338" />
-    <use id="s6_1" href="#skinny_topleft" x="329" y="548" fill="#2f3338" />
-    <use id="s6_2" href="#skinny_topright" x="361" y="548" fill="#2f3338" />
-    <use id="s6_3" href="#skinny_middle" x="333" y="577" fill="#2f3338" />
-    <use id="s6_4" href="#skinny_bottomleft" x="329" y="582" fill="#2f3338" />
-    <use id="s6_5" href="#skinny_bottomright" x="361" y="582" fill="#2f3338" />
-    <use id="s6_6" href="#skinny_bottom" x="335" y="607" fill="#2f3338" />
+    <use id="s6_0" href="#skinny_top" x="345" y="547" fill="#2f3338" />
+    <use id="s6_1" href="#skinny_topleft" x="339" y="548" fill="#2f3338" />
+    <use id="s6_2" href="#skinny_topright" x="371" y="548" fill="#2f3338" />
+    <use id="s6_3" href="#skinny_middle" x="343" y="577" fill="#2f3338" />
+    <use id="s6_4" href="#skinny_bottomleft" x="339" y="582" fill="#2f3338" />
+    <use id="s6_5" href="#skinny_bottomright" x="371" y="582" fill="#2f3338" />
+    <use id="s6_6" href="#skinny_bottom" x="345" y="607" fill="#2f3338" />
   </g>
 
   <text id="type12">PM</text>
