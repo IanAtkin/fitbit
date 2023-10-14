@@ -201,45 +201,46 @@
     </defs>
   </svg>
 
- <g transform="scale(.99)">
-  <use id="d1_0" href="#top" x="22" y="114" fill="#2f3338" />
-  <use id="d1_1" href="#topleft" x="18" y="118" fill="#2f3338" />
-  <use id="d1_2" href="#topright" x="46" y="115" fill="#2f3338" />
-  <use id="d1_3" href="#middle" x="22" y="142" fill="#2f3338" />
-  <use id="d1_4" href="#bottomleft" x="18" y="149" fill="#2f3338" />
-  <use id="d1_5" href="#bottomright" x="46" y="149" fill="#2f3338" />
-  <use id="d1_6" href="#bottom" x="19" y="171" fill="#2f3338" />
-</g>
+  <!-- clock display -->
+  <g transform="scale(.99)">
+    <use id="d1_0" href="#top" x="22" y="114" fill="#2f3338" />
+    <use id="d1_1" href="#topleft" x="18" y="118" fill="#2f3338" />
+    <use id="d1_2" href="#topright" x="46" y="115" fill="#2f3338" />
+    <use id="d1_3" href="#middle" x="22" y="142" fill="#2f3338" />
+    <use id="d1_4" href="#bottomleft" x="18" y="149" fill="#2f3338" />
+    <use id="d1_5" href="#bottomright" x="46" y="149" fill="#2f3338" />
+    <use id="d1_6" href="#bottom" x="19" y="171" fill="#2f3338" />
+  </g>
 
- <g transform="scale(.99)">
-  <use id="d2_0" href="#top" x="69" y="114" fill="#2f3338" />
-  <use id="d2_1" href="#topleft" x="65" y="118" fill="#2f3338" />
-  <use id="d2_2" href="#topright" x="93" y="115" fill="#2f3338" />
-  <use id="d2_3" href="#middle" x="69" y="142" fill="#2f3338" />
-  <use id="d2_4" href="#bottomleft" x="65" y="149" fill="#2f3338" />
-  <use id="d2_5" href="#bottomright" x="93" y="149" fill="#2f3338" />
-  <use id="d2_6" href="#bottom" x="67" y="171" fill="#2f3338" />
-</g>
+  <g transform="scale(.99)">
+    <use id="d2_0" href="#top" x="69" y="114" fill="#2f3338" />
+    <use id="d2_1" href="#topleft" x="65" y="118" fill="#2f3338" />
+    <use id="d2_2" href="#topright" x="93" y="115" fill="#2f3338" />
+    <use id="d2_3" href="#middle" x="69" y="142" fill="#2f3338" />
+    <use id="d2_4" href="#bottomleft" x="65" y="149" fill="#2f3338" />
+    <use id="d2_5" href="#bottomright" x="93" y="149" fill="#2f3338" />
+    <use id="d2_6" href="#bottom" x="67" y="171" fill="#2f3338" />
+  </g>
 
- <g transform="scale(.99)">
-  <use id="d3_0" href="#top" x="135" y="114" fill="#2f3338" />
-  <use id="d3_1" href="#topleft" x="131" y="118" fill="#2f3338" />
-  <use id="d3_2" href="#topright" x="159" y="115" fill="#2f3338" />
-  <use id="d3_3" href="#middle" x="135" y="142" fill="#2f3338" />
-  <use id="d3_4" href="#bottomleft" x="130" y="149" fill="#2f3338" />
-  <use id="d3_5" href="#bottomright" x="159" y="149" fill="#2f3338" />
-  <use id="d3_6" href="#bottom" x="132" y="171" fill="#2f3338" />
-</g>
+  <g transform="scale(.99)">
+    <use id="d3_0" href="#top" x="135" y="114" fill="#2f3338" />
+    <use id="d3_1" href="#topleft" x="131" y="118" fill="#2f3338" />
+    <use id="d3_2" href="#topright" x="159" y="115" fill="#2f3338" />
+    <use id="d3_3" href="#middle" x="135" y="142" fill="#2f3338" />
+    <use id="d3_4" href="#bottomleft" x="130" y="149" fill="#2f3338" />
+    <use id="d3_5" href="#bottomright" x="159" y="149" fill="#2f3338" />
+    <use id="d3_6" href="#bottom" x="132" y="171" fill="#2f3338" />
+  </g>
 
- <g transform="scale(.99)">
-  <use id="d4_0" href="#top" x="182" y="114" fill="#2f3338" />
-  <use id="d4_1" href="#topleft" x="178" y="118" fill="#2f3338" />
-  <use id="d4_2" href="#topright" x="206" y="115" fill="#2f3338" />
-  <use id="d4_3" href="#middle" x="182" y="142" fill="#2f3338" />
-  <use id="d4_4" href="#bottomleft" x="178" y="149" fill="#2f3338" />
-  <use id="d4_5" href="#bottomright" x="206" y="149" fill="#2f3338" />
-  <use id="d4_6" href="#bottom" x="179" y="171" fill="#2f3338" />
-</g>
+  <g transform="scale(.99)">
+    <use id="d4_0" href="#top" x="182" y="114" fill="#2f3338" />
+    <use id="d4_1" href="#topleft" x="178" y="118" fill="#2f3338" />
+    <use id="d4_2" href="#topright" x="206" y="115" fill="#2f3338" />
+    <use id="d4_3" href="#middle" x="182" y="142" fill="#2f3338" />
+    <use id="d4_4" href="#bottomleft" x="178" y="149" fill="#2f3338" />
+    <use id="d4_5" href="#bottomright" x="206" y="149" fill="#2f3338" />
+    <use id="d4_6" href="#bottom" x="179" y="171" fill="#2f3338" />
+  </g>
 
   <g transform="scale(.7)">
     <use id="d5_0" href="#top" x="327" y="188" fill="#2f3338" />
@@ -539,7 +540,7 @@
     </defs>
   </svg>
 
-  <!-- dqte digits -->
+  <!-- date display -->
   <g transform="scale(.4)">
     <use id="day1_0" href="#skinny_top" x="474" y="145" fill="#2f3338" />
     <use id="day1_1" href="#skinny_topleft" x="468" y="146" fill="#2f3338" />
@@ -588,7 +589,7 @@
     <use id="date2_6" href="#skinny_bottom" x="650" y="205" fill="#2f3338" />
   </g>
 
-  <!-- steps digits -->
+  <!-- steps display -->
   <g transform="scale(.4)">
     <use id="s1_0" href="#skinny_top" x="90" y="547" fill="#2f3338" />
     <use id="s1_1" href="#skinny_topleft" x="84" y="548" fill="#2f3338" />
@@ -649,10 +650,12 @@
     <use id="s6_6" href="#skinny_bottom" x="345" y="607" fill="#2f3338" />
   </g>
 
+  <!-- text elements -->
   <text id="type12">PM</text>
   <text id="type24">24H</text>
   <text id="steps">STEPS</text>
 
+  <!-- overlay image -->
   <image id="image" href="images/overlay.png" />
 
 </svg>

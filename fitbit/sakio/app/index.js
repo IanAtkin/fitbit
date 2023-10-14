@@ -48,12 +48,12 @@ for (let i = 0; i < 11; i++) {
   day2[i] = document.getElementById(`day2_${i}`);
 }
 
-const background = document.getElementById("background");
 const backlight = document.getElementById("backlight");
 
 const type12 = document.getElementById("type12");
 const type24 = document.getElementById("type24");
 
+// number segments
 const numbers = [
   [1, 1, 1, 0, 1, 1, 1], // 0
   [0, 0, 1, 0, 0, 1, 0], // 1
@@ -68,7 +68,6 @@ const numbers = [
 ]
 
 // extra segments: top vertical, bottom vertical, alt middle, wing 
-
 const letters = [
   [[1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0], [0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0]], // SU
   [[1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0], [1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0]], // MO
@@ -79,7 +78,7 @@ const letters = [
   [[1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0], [1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]]  // SA
 ]
 
-// Tick every second
+// tick every second
 clock.granularity = "seconds";
 
 function updateClock() {
@@ -101,43 +100,35 @@ function updateClock() {
   }
 
   let h = util.zeroPad(hours);
-  let h1 = h.toString()[0];
-  let h2 = h.toString()[1];
+  let hours_array = [h.toString()[0], h.toString()[1]];
   for (let i = 0; i < 7; i++) {
-    d1[i].style.visibility = numbers[h1][i] == 0 ? "hidden" : h1 > 0 ? "visible" : "hidden";
-    d2[i].style.visibility = numbers[h2][i] == 0 ? "hidden" : "visible";
+    d1[i].style.visibility = numbers[hours_array[0]][i] == 0 ? "hidden" : hours_array[0] > 0 ? "visible" : "hidden";
+    d2[i].style.visibility = numbers[hours_array[1]][i] == 0 ? "hidden" : "visible";
   }
 
   let m = util.zeroPad(minutes);
-  let m1 = m.toString()[0];
-  let m2 = m.toString()[1];
+  let minutes_array = [m.toString()[0], m.toString()[1]];
   for (let i = 0; i < 7; i++) {
-    d3[i].style.visibility = numbers[m1][i] == 0 ? "hidden" : "visible";
-    d4[i].style.visibility = numbers[m2][i] == 0 ? "hidden" : "visible";
+    d3[i].style.visibility = numbers[minutes_array[0]][i] == 0 ? "hidden" : "visible";
+    d4[i].style.visibility = numbers[minutes_array[1]][i] == 0 ? "hidden" : "visible";
   }
 
   let s = util.zeroPad(seconds);
-  let s1 = s.toString()[0];
-  let s2 = s.toString()[1];
+  let seconds_array = [s.toString()[0], s.toString()[1]];
   for (let i = 0; i < 7; i++) {
-    d5[i].style.visibility = numbers[s1][i] == 0 ? "hidden" : "visible";
-    d6[i].style.visibility = numbers[s2][i] == 0 ? "hidden" : "visible";
+    d5[i].style.visibility = numbers[seconds_array[0]][i] == 0 ? "hidden" : "visible";
+    d6[i].style.visibility = numbers[seconds_array[1]][i] == 0 ? "hidden" : "visible";
   }
 
   let st = util.zeroPad(steps, 6);
-  let steps1 = st.toString()[0];
-  let steps2 = st.toString()[1];
-  let steps3 = st.toString()[2];
-  let steps4 = st.toString()[3];
-  let steps5 = st.toString()[4];
-  let steps6 = st.toString()[5];
+  let steps_array = [st.toString()[0], st.toString()[1], st.toString()[2], st.toString()[3], st.toString()[4], st.toString()[5]];
   for (let i = 0; i < 7; i++) {
-    st1[i].style.visibility = numbers[steps1][i] == 0 ? "hidden" : "visible";
-    st2[i].style.visibility = numbers[steps2][i] == 0 ? "hidden" : "visible";
-    st3[i].style.visibility = numbers[steps3][i] == 0 ? "hidden" : "visible";
-    st4[i].style.visibility = numbers[steps4][i] == 0 ? "hidden" : "visible";
-    st5[i].style.visibility = numbers[steps5][i] == 0 ? "hidden" : "visible";
-    st6[i].style.visibility = numbers[steps6][i] == 0 ? "hidden" : "visible";
+    st1[i].style.visibility = numbers[steps_array[0]][i] == 0 ? "hidden" : "visible";
+    st2[i].style.visibility = numbers[steps_array[1]][i] == 0 ? "hidden" : "visible";
+    st3[i].style.visibility = numbers[steps_array[2]][i] == 0 ? "hidden" : "visible";
+    st4[i].style.visibility = numbers[steps_array[3]][i] == 0 ? "hidden" : "visible";
+    st5[i].style.visibility = numbers[steps_array[4]][i] == 0 ? "hidden" : "visible";
+    st6[i].style.visibility = numbers[steps_array[5]][i] == 0 ? "hidden" : "visible";
   }
 
   for (let i = 0; i < 11; i++) {
@@ -146,13 +137,12 @@ function updateClock() {
   }
 
   let dt = util.zeroPad(date);
-  let dt1 = dt.toString()[0];
-  let dt2 = dt.toString()[1];
+  let date_array = [dt.toString()[0], dt.toString()[1]];
   for (let i = 0; i < 7; i++) {
-    date1[i].style.visibility = numbers[dt1][i] == 0 ? "hidden" : "visible";
-    date2[i].style.visibility = numbers[dt2][i] == 0 ? "hidden" : "visible";
+    date1[i].style.visibility = numbers[date_array[0]][i] == 0 ? "hidden" : "visible";
+    date2[i].style.visibility = numbers[date_array[1]][i] == 0 ? "hidden" : "visible";
   }
 }
 
-// Update the clock every tick event
+// update the clock every tick event
 clock.addEventListener("tick", updateClock);

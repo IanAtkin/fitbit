@@ -1,15 +1,3 @@
-#mins {
-  opacity: 1;
-}
-
-#hours {
-  opacity: 1;
-}
-
-#secs {
-  opacity: 1;
-}
-
 #type12 {
   font-size: 16;
   font-family: System-Bold;
@@ -38,26 +26,4 @@
   fill: #30333c;
   x: 33;
   y: 210;
-}
-
-#sakio {
-  font-size: 32;
-  font-family: System-Bold;
-  font-weight: regular;
-  text-length: 32;
-  text-anchor: middle;
-  fill: #ffffff;
-  x: 50%;
-  y: 31;
-}
-
-#wr {
-  font-size: 24;
-  font-family: System-Bold;
-  font-weight: regular;
-  text-length: 32;
-  text-anchor: middle;
-  fill: #cccccc;
-  x: 50%;
-  y: 288;
 }
