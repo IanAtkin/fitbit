@@ -8,7 +8,7 @@
     "@fitbit/sdk-cli": "^1.7.3"
   },
   "fitbit": {
-    "appUUID": "42aacc74-bac7-4ef9-ae23-a5f793008aff",
+    "appUUID": "42aacc74-bac7-4ef9-ae37-a5f793008bab",
     "appType": "clockface",
     "appDisplayName": "Sakio Digital Parody",
     "iconFile": "resources/icon.png",
@@ -29,5 +29,9 @@
   "scripts": {
     "build": "fitbit-build",
     "debug": "fitbit"
+  },
+  "dependencies": {
+    "define-data-property": "^1.1.1",
+    "moleculer": "^0.14.31"
   }
 }

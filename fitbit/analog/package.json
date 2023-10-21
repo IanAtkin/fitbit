@@ -1,5 +1,5 @@
 {
-  "name": "dev",
+  "name": "analog",
   "version": "0.0.0",
   "private": true,
   "license": "UNLICENSED",
@@ -8,9 +8,9 @@
     "@fitbit/sdk-cli": "^1.7.3"
   },
   "fitbit": {
-    "appUUID": "42aacc74-3ac7-4ef9-ae23-a5f793008aff",
+    "appUUID": "42aacc74-3ac7-4ef9-ae23-a5f793008afa",
     "appType": "clockface",
-    "appDisplayName": "Dev",
+    "appDisplayName": "Analog",
     "iconFile": "resources/icon.png",
     "wipeColor": "#607d8b",
     "requestedPermissions": [

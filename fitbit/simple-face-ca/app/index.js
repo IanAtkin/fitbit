@@ -24,7 +24,7 @@ const floors = document.getElementById("floors");
 const power = document.getElementById("power");
 
 const bg = document.getElementById("image");
-//bg.href = `images/${util.getImage(0)}.jpg`;
+bg.href = `images/${util.getImage(0)}.jpg`;
 
 const batteryIcon = document.getElementById("batteryIcon");
 

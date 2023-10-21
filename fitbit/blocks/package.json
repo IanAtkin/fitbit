@@ -8,7 +8,7 @@
     "@fitbit/sdk-cli": "^1.7.3"
   },
   "fitbit": {
-    "appUUID": "42aacc74-3ac7-4ef9-ae23-a5f793008aff",
+    "appUUID": "42aacc74-3ac7-4ef9-ae23-a5f793008afe",
     "appType": "clockface",
     "appDisplayName": "BLOX",
     "iconFile": "resources/icon.png",
