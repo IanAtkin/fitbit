@@ -309,8 +309,8 @@
     <use id="day1_3" href="#skinny_middle" x="406" y="375" fill="white" />
     <use id="day1_4" href="#skinny_bottomleft" x="402" y="380" fill="white" />
     <use id="day1_5" href="#skinny_bottomright" x="434" y="380" fill="white" />
-    <use id="day1_6" href="#skinny_bottom" x="403" y="410" fill="white" />
-    <use id="day1_7" href="#skinny_topvertical" x="408" y="521" fill="white" />
+    <use id="day1_6" href="#skinny_bottom" x="408" y="405" fill="white" />
+    <use id="day1_7" href="#skinny_topvertical" x="418" y="351" fill="white" />
     <use id="day1_8" href="#skinny_bottomvertical" x="418" y="381" fill="white" />
     <use id="day1_9" href="#skinny_altmiddle" x="406" y="375" fill="white" />
     <use id="day1_10" href="#skinny_wing" x="363" y="345" fill="white" />
@@ -323,8 +323,8 @@
     <use id="day2_3" href="#skinny_middle" x="455" y="375" fill="white" />
     <use id="day2_4" href="#skinny_bottomleft" x="450" y="380" fill="white" />
     <use id="day2_5" href="#skinny_bottomright" x="483" y="380" fill="white" />
-    <use id="day2_6" href="#skinny_bottom" x="462" y="400" fill="white" />
-    <use id="day2_7" href="#skinny_topvertical" x="467" y="521" fill="white" />
+    <use id="day2_6" href="#skinny_bottom" x="457" y="405" fill="white" />
+    <use id="day2_7" href="#skinny_topvertical" x="467" y="351" fill="white" />
     <use id="day2_8" href="#skinny_bottomvertical" x="467" y="381" fill="white" />
     <use id="day2_9" href="#skinny_altmiddle" x="455" y="375" fill="white" />
     <use id="day2_10" href="#skinny_wing" x="442" y="345" fill="white" />
@@ -352,63 +352,63 @@
 
   <!-- steps display -->
   <g transform="scale(.3)">
-    <use id="s1_0" href="#skinny_top" x="349" y="595" fill="white" />
-    <use id="s1_1" href="#skinny_topleft" x="343" y="596" fill="white" />
-    <use id="s1_2" href="#skinny_topright" x="375" y="596" fill="white" />
-    <use id="s1_3" href="#skinny_middle" x="347" y="625" fill="white" />
-    <use id="s1_4" href="#skinny_bottomleft" x="343" y="630" fill="white" />
-    <use id="s1_5" href="#skinny_bottomright" x="375" y="630" fill="white" />
-    <use id="s1_6" href="#skinny_bottom" x="349" y="655" fill="white" />
+    <use id="s1_0" href="#skinny_top" x="348" y="595" fill="white" />
+    <use id="s1_1" href="#skinny_topleft" x="342" y="596" fill="white" />
+    <use id="s1_2" href="#skinny_topright" x="374" y="596" fill="white" />
+    <use id="s1_3" href="#skinny_middle" x="346" y="625" fill="white" />
+    <use id="s1_4" href="#skinny_bottomleft" x="342" y="630" fill="white" />
+    <use id="s1_5" href="#skinny_bottomright" x="374" y="630" fill="white" />
+    <use id="s1_6" href="#skinny_bottom" x="348" y="655" fill="white" />
   </g>
 
   <g transform="scale(.3)">
-    <use id="s2_0" href="#skinny_top" x="405" y="595" fill="white" />
-    <use id="s2_1" href="#skinny_topleft" x="399" y="596" fill="white" />
-    <use id="s2_2" href="#skinny_topright" x="431" y="596" fill="white" />
-    <use id="s2_3" href="#skinny_middle" x="403" y="625" fill="white" />
-    <use id="s2_4" href="#skinny_bottomleft" x="399" y="630" fill="white" />
-    <use id="s2_5" href="#skinny_bottomright" x="431" y="630" fill="white" />
-    <use id="s2_6" href="#skinny_bottom" x="405" y="655" fill="white" />
+    <use id="s2_0" href="#skinny_top" x="404" y="595" fill="white" />
+    <use id="s2_1" href="#skinny_topleft" x="398" y="596" fill="white" />
+    <use id="s2_2" href="#skinny_topright" x="430" y="596" fill="white" />
+    <use id="s2_3" href="#skinny_middle" x="402" y="625" fill="white" />
+    <use id="s2_4" href="#skinny_bottomleft" x="398" y="630" fill="white" />
+    <use id="s2_5" href="#skinny_bottomright" x="430" y="630" fill="white" />
+    <use id="s2_6" href="#skinny_bottom" x="404" y="655" fill="white" />
   </g>
 
   <g transform="scale(.3)">
-    <use id="s3_0" href="#skinny_top" x="461" y="595" fill="white" />
-    <use id="s3_1" href="#skinny_topleft" x="454" y="596" fill="white" />
-    <use id="s3_2" href="#skinny_topright" x="486" y="596" fill="white" />
-    <use id="s3_3" href="#skinny_middle" x="459" y="625" fill="white" />
-    <use id="s3_4" href="#skinny_bottomleft" x="454" y="630" fill="white" />
-    <use id="s3_5" href="#skinny_bottomright" x="486" y="630" fill="white" />
-    <use id="s3_6" href="#skinny_bottom" x="461" y="655" fill="white" />
+    <use id="s3_0" href="#skinny_top" x="460" y="595" fill="white" />
+    <use id="s3_1" href="#skinny_topleft" x="453" y="596" fill="white" />
+    <use id="s3_2" href="#skinny_topright" x="485" y="596" fill="white" />
+    <use id="s3_3" href="#skinny_middle" x="458" y="625" fill="white" />
+    <use id="s3_4" href="#skinny_bottomleft" x="453" y="630" fill="white" />
+    <use id="s3_5" href="#skinny_bottomright" x="485" y="630" fill="white" />
+    <use id="s3_6" href="#skinny_bottom" x="460" y="655" fill="white" />
   </g>
 
   <g transform="scale(.3)">
-    <use id="s4_0" href="#skinny_top" x="517" y="595" fill="white" />
-    <use id="s4_1" href="#skinny_topleft" x="511" y="596" fill="white" />
-    <use id="s4_2" href="#skinny_topright" x="543" y="596" fill="white" />
-    <use id="s4_3" href="#skinny_middle" x="515" y="625" fill="white" />
-    <use id="s4_4" href="#skinny_bottomleft" x="511" y="630" fill="white" />
-    <use id="s4_5" href="#skinny_bottomright" x="543" y="630" fill="white" />
-    <use id="s4_6" href="#skinny_bottom" x="517" y="655" fill="white" />
+    <use id="s4_0" href="#skinny_top" x="516" y="595" fill="white" />
+    <use id="s4_1" href="#skinny_topleft" x="510" y="596" fill="white" />
+    <use id="s4_2" href="#skinny_topright" x="542" y="596" fill="white" />
+    <use id="s4_3" href="#skinny_middle" x="514" y="625" fill="white" />
+    <use id="s4_4" href="#skinny_bottomleft" x="510" y="630" fill="white" />
+    <use id="s4_5" href="#skinny_bottomright" x="542" y="630" fill="white" />
+    <use id="s4_6" href="#skinny_bottom" x="516" y="655" fill="white" />
   </g>
 
   <g transform="scale(.3)">
-    <use id="s5_0" href="#skinny_top" x="573" y="595" fill="white" />
-    <use id="s5_1" href="#skinny_topleft" x="567" y="596" fill="white" />
-    <use id="s5_2" href="#skinny_topright" x="599" y="596" fill="white" />
-    <use id="s5_3" href="#skinny_middle" x="571" y="625" fill="white" />
-    <use id="s5_4" href="#skinny_bottomleft" x="567" y="630" fill="white" />
-    <use id="s5_5" href="#skinny_bottomright" x="599" y="630" fill="white" />
-    <use id="s5_6" href="#skinny_bottom" x="573" y="655" fill="white" />
+    <use id="s5_0" href="#skinny_top" x="572" y="595" fill="white" />
+    <use id="s5_1" href="#skinny_topleft" x="566" y="596" fill="white" />
+    <use id="s5_2" href="#skinny_topright" x="598" y="596" fill="white" />
+    <use id="s5_3" href="#skinny_middle" x="570" y="625" fill="white" />
+    <use id="s5_4" href="#skinny_bottomleft" x="566" y="630" fill="white" />
+    <use id="s5_5" href="#skinny_bottomright" x="598" y="630" fill="white" />
+    <use id="s5_6" href="#skinny_bottom" x="572" y="655" fill="white" />
   </g>
 
   <g transform="scale(.3)">
-    <use id="s6_0" href="#skinny_top" x="629" y="595" fill="white" />
-    <use id="s6_1" href="#skinny_topleft" x="623" y="596" fill="white" />
-    <use id="s6_2" href="#skinny_topright" x="655" y="596" fill="white" />
-    <use id="s6_3" href="#skinny_middle" x="627" y="625" fill="white" />
-    <use id="s6_4" href="#skinny_bottomleft" x="623" y="630" fill="white" />
-    <use id="s6_5" href="#skinny_bottomright" x="655" y="630" fill="white" />
-    <use id="s6_6" href="#skinny_bottom" x="629" y="655" fill="white" />
+    <use id="s6_0" href="#skinny_top" x="628" y="595" fill="white" />
+    <use id="s6_1" href="#skinny_topleft" x="622" y="596" fill="white" />
+    <use id="s6_2" href="#skinny_topright" x="654" y="596" fill="white" />
+    <use id="s6_3" href="#skinny_middle" x="626" y="625" fill="white" />
+    <use id="s6_4" href="#skinny_bottomleft" x="622" y="630" fill="white" />
+    <use id="s6_5" href="#skinny_bottomright" x="654" y="630" fill="white" />
+    <use id="s6_6" href="#skinny_bottom" x="628" y="655" fill="white" />
   </g>
 
   <svg id="twelveHour">
