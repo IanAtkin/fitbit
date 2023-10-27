@@ -3,6 +3,7 @@ import document from "document";
 import { preferences } from "user-settings";
 import { today as toDay } from "user-activity";
 import * as util from "../resources/utils";
+import { battery } from "power";
 
 const d1 = [];
 const d2 = [];
@@ -23,6 +24,8 @@ const day2 = [];
 
 const date1 = [];
 const date2 = [];
+
+const segment = [];
 
 for (let i = 0; i < 7; i++) {
   d1[i] = document.getElementById(`d1_${i}`);
@@ -46,6 +49,10 @@ for (let i = 0; i < 7; i++) {
 for (let i = 0; i < 11; i++) {
   day1[i] = document.getElementById(`day1_${i}`);
   day2[i] = document.getElementById(`day2_${i}`);
+}
+
+for (let i = 1; i < 6; i++) {
+  segment[i] = document.getElementById(`segment_${i}`);
 }
 
 const backlight = document.getElementById("backlight");
@@ -141,6 +148,26 @@ function updateClock() {
   for (let i = 0; i < 7; i++) {
     date1[i].style.visibility = numbers[date_array[0]][i] == 0 ? "hidden" : "visible";
     date2[i].style.visibility = numbers[date_array[1]][i] == 0 ? "hidden" : "visible";
+  }
+
+  for (let i = 1; i < 6; i++) {
+    segment[i].style.visibility = "hidden";
+  }
+
+  if(battery.chargeLevel >= 0) {
+    segment[1].style.visibility = "visible";
+  }
+  if(battery.chargeLevel >= 20) {
+    segment[2].style.visibility = "visible";
+  }
+  if(battery.chargeLevel >= 40) {
+    segment[3].style.visibility = "visible";
+  }
+  if(battery.chargeLevel >= 60) {
+    segment[4].style.visibility = "visible";
+  }
+  if(battery.chargeLevel >= 80) {
+    segment[5].style.visibility = "visible";
   }
 }
 
